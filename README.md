@@ -1,0 +1,28 @@
+# <h1 align=center> **Proyecto Final de Bootcamp** </h1>
+
+# <h1 align=center>**`NY_TaxiGreen: Análisis del movimiento de taxis en la ciudad de Nueva York y su relación con la calidad del aire y la contaminación sonora.`**</h1>
+
+
+
+## **Equipo**</h2>
+
+<p align=center><img src=https://github.com/ramirou2/NY_TaxiGreen/assets/111613206/80d5c1d4-7cdb-40a3-b521-2b5e1b4b2b77><p>
+
+* Araque Roldan, Mauricio Alejandro
+
+* Biava, Cristian
+
+* López Guerra, Adriana Gabriela
+
+* Luna Paez, Gastón Ramiro
+
+* Rappaport, Fernando Ariel
+
+### **`Matriz de responsabilidades`**</h3>
+
+:black_circle: Main
+
+:small_red_triangle:  Support
+
+![Matriz de Responsabilidades](<Imagenes/Matriz de responsabilidades.jpg>)
+
