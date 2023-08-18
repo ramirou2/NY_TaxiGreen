@@ -1,0 +1,12 @@
+Fuel ID,Fuel,Fuel Code
+45,Hybrid Electric,HYBR
+57,Plug-in Hybrid Electric,PHEV
+41,Electric,ELEC
+35,Biodiesel (B20),BD
+11,Ethanol (E85),E85_GSLN
+9,Hydrogen Fuel Cell,H2
+39,Propane - Bi-fuel,LPG_GSLN
+37,CNG - Bi-fuel,CNG_GSLN
+3,CNG - Compressed Natural Gas,CNG
+55,Propane,LPG
+49,Methanol,M85_GSLN
