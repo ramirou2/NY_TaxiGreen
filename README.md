@@ -7,6 +7,8 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
 ## **Equipo**</h2>
 
+|  [<img src="https://avatars.githubusercontent.com/u/71970858?v=4" width=115><br><sub>Ellen Pimentel</sub>]([https://github.com/guilhermeonrails](https://github.com/ellenpimentel)) |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=115><br><sub>Génesys Rondón</sub>](https://github.com/genesysaluralatam) |
+
 <p align=center><img src=https://github.com/ramirou2/NY_TaxiGreen/assets/111613206/80d5c1d4-7cdb-40a3-b521-2b5e1b4b2b77><p>
 
 |<img src="https://avatars.githubusercontent.com/u/111613206?v=4" width=100>|<br><sub>Araque Roldan Mauricio Alejandro(https://github.com/araquester)</sub>
