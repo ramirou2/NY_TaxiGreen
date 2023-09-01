@@ -5,7 +5,7 @@
 
 Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
-## **Equipo**</h2>
+### **`Equipo`**</h2>
 
 * <img src="https://avatars.githubusercontent.com/u/111613206?v=4" width=100> Araque Roldan Mauricio Alejandro (https://github.com/araquester)
 
