@@ -11,7 +11,7 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
 * <img src="https://avatars.githubusercontent.com/u/118738681?v=4" width=100> Biava, Cristian (https://github.com/Crichu)
 
-* López Guerra, Adriana Gabriela
+* <img src="https://avatars.githubusercontent.com/u/79583157?v=4" width=100> López Guerra, Adriana Gabriela (https://github.com/AdrianaGLG)
 
 * <img src="https://avatars.githubusercontent.com/u/69260155?v=4" width=100> Luna Paez, Gastón Ramiro (https://github.com/ramirou2)
 
