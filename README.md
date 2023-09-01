@@ -15,7 +15,7 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
 * López Guerra, Adriana Gabriela
 
-* Luna Paez, Gastón Ramiro
+* Luna Paez, Gastón Ramiro (https://github.com/ramirou2)
 
 * Rappaport, Fernando Ariel
 
