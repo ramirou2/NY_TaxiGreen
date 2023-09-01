@@ -9,15 +9,15 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
 <p align=center><img src=https://github.com/ramirou2/NY_TaxiGreen/assets/111613206/80d5c1d4-7cdb-40a3-b521-2b5e1b4b2b77><p>
 
-* <img src="https://avatars.githubusercontent.com/u/111613206?v=4" width=125> Araque Roldan Mauricio Alejandro (https://github.com/araquester)
+* <img src="https://avatars.githubusercontent.com/u/111613206?v=4" width=100> Araque Roldan Mauricio Alejandro (https://github.com/araquester)
 
 * Biava, Cristian
 
 * López Guerra, Adriana Gabriela
 
-* <img src="https://avatars.githubusercontent.com/u/69260155?v=4" width=125> Luna Paez, Gastón Ramiro (https://github.com/ramirou2)
+* <img src="https://avatars.githubusercontent.com/u/69260155?v=4" width=100> Luna Paez, Gastón Ramiro (https://github.com/ramirou2)
 
-* Rappaport, Fernando Ariel
+* <img src="https://avatars.githubusercontent.com/u/105159929?v=4" width=100> Rappaport, Fernando Ariel (https://github.com/TheFercho)
 
 ### **`Matriz de responsabilidades`**</h3>
 
