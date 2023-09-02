@@ -25,12 +25,20 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 .
 ├── public
 |     └── index.html
-├── src
-    ├── assets
-    |     ├── audios
-    |     ├── icons
-    |     ├── images
-    |     └── videos
+├── Datasets
+    ├── Alternative Fuel Vehicles US.csv  (Dataset_01)
+    ├── Electric and Alternative Fuel Charging Stations.csv  (Dataset_02)
+    ├── ElectricCarData_Clean.csv  (Dataset_03)
+    ├── ElectricCarData_Norm.csv  (Dataset_04)
+    ├── Light Duty Vehicles.csv  (Dataset_05)
+    ├── Vehicle Fuel Economy Data.csv  (Dataset_06)
+    ├── data_dictionary_trip_records_yellow.pdf
+    ├── taxi+_zone_lookup.csv (Dataset_07)
+    ├── taxi_zones.dbf
+├ .gitignore
+├ README.md
+├ requirements.txt
+
 
 ```
 ### **`Matriz de responsabilidades`**</h3>
@@ -43,3 +51,4 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
 =======
 # NY_TaxiGreen #
+
