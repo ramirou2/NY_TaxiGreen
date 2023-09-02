@@ -21,6 +21,7 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
 ### **`Esquema de Github`**</h3>
 
+.
 ├── public
 |     └── index.html
 ├── src
