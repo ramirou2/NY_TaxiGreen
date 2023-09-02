@@ -32,7 +32,7 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
     |     ├── images
     |     └── videos
 
-
+```
 ### **`Matriz de responsabilidades`**</h3>
 
 :black_circle: Main
