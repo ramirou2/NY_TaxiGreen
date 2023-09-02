@@ -1,7 +1,7 @@
 <<<<<<< Cristian/Vehicle-Fuel-Economy-Data_ini
 # <h1 align=center> **Proyecto Final de Bootcamp** </h1>
 
-<p align="center"><img align=center src="https://github.com/ramirou2/NY_TaxiGreen/assets/111613206/80d5c1d4-7cdb-40a3-b521-2b5e1b4b2b77" width=400> </p>
+<p align=center><img src="https://github.com/ramirou2/NY_TaxiGreen/assets/111613206/80d5c1d4-7cdb-40a3-b521-2b5e1b4b2b77" width=400> </p>
 
 # <h1 align=center>**`NY_TaxiGreen: Análisis del movimiento de taxis en la ciudad de Nueva York y su relación con la calidad del aire y la contaminación sonora.`**</h1>
 
