@@ -10,13 +10,13 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
 * <img src="https://avatars.githubusercontent.com/u/111613206?v=4" width=75> <sub> Araque Roldan Mauricio Alejandro (https://github.com/araquester) </sub>
 
-* <img src="https://media.licdn.com/dms/image/D4E03AQFDK8a0LZX7Sw/profile-displayphoto-shrink_100_100/0/1689894810692?e=1698883200&v=beta&t=JrdjWkYa1aZ4cpdwUXwafdGS1AvVGMrxBdZ6Nzdaf9w" width=100> Biava, Cristian (https://github.com/Crichu)
+* <img src="https://media.licdn.com/dms/image/D4E03AQFDK8a0LZX7Sw/profile-displayphoto-shrink_100_100/0/1689894810692?e=1698883200&v=beta&t=JrdjWkYa1aZ4cpdwUXwafdGS1AvVGMrxBdZ6Nzdaf9w" width=75> <sub> Biava, Cristian (https://github.com/Crichu) </sub>
 
-* <img src="https://avatars.githubusercontent.com/u/79583157?v=4" width=100> López Guerra, Adriana Gabriela (https://github.com/AdrianaGLG)
+* <img src="https://avatars.githubusercontent.com/u/79583157?v=4" width=75> <sub> López Guerra, Adriana Gabriela (https://github.com/AdrianaGLG) </sub>
 
-* <img src="https://avatars.githubusercontent.com/u/69260155?v=4" width=100> Luna Paez, Gastón Ramiro (https://github.com/ramirou2)
+* <img src="https://avatars.githubusercontent.com/u/69260155?v=4" width=75> <sub> Luna Paez, Gastón Ramiro (https://github.com/ramirou2) </sub>
 
-* <img src="https://media.licdn.com/dms/image/D4E03AQH0E5IuAOAKjQ/profile-displayphoto-shrink_800_800/0/1692194604387?e=1698883200&v=beta&t=3ahkSTiqFkN0p_kJJRXjWvi7GAUMVazlrRERdPc56vw" width=100> Rappaport, Fernando Ariel (https://github.com/TheFercho)
+* <img src="https://media.licdn.com/dms/image/D4E03AQH0E5IuAOAKjQ/profile-displayphoto-shrink_800_800/0/1692194604387?e=1698883200&v=beta&t=3ahkSTiqFkN0p_kJJRXjWvi7GAUMVazlrRERdPc56vw" width=75> <sub> Rappaport, Fernando Ariel (https://github.com/TheFercho) </sub>
 
 ### **`Esquema del Repositorio`**</h3>
 
