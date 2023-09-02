@@ -11,7 +11,7 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
 * <img src="https://avatars.githubusercontent.com/u/111613206?v=4" width=100> Araque Roldan Mauricio Alejandro (https://github.com/araquester)
 
-* <img src="[https://avatars.githubusercontent.com/u/118738681?v=4](https://media.licdn.com/dms/image/D4E03AQFDK8a0LZX7Sw/profile-displayphoto-shrink_100_100/0/1689894810692?e=1698883200&v=beta&t=JrdjWkYa1aZ4cpdwUXwafdGS1AvVGMrxBdZ6Nzdaf9w)" width=100> Biava, Cristian (https://github.com/Crichu)
+* <img src="https://media.licdn.com/dms/image/D4E03AQFDK8a0LZX7Sw/profile-displayphoto-shrink_100_100/0/1689894810692?e=1698883200&v=beta&t=JrdjWkYa1aZ4cpdwUXwafdGS1AvVGMrxBdZ6Nzdaf9w" width=100> Biava, Cristian (https://github.com/Crichu)
 
 * <img src="https://avatars.githubusercontent.com/u/79583157?v=4" width=100> López Guerra, Adriana Gabriela (https://github.com/AdrianaGLG)
 
