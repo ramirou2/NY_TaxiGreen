@@ -19,6 +19,18 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
 * <img src="https://media.licdn.com/dms/image/D4E03AQH0E5IuAOAKjQ/profile-displayphoto-shrink_800_800/0/1692194604387?e=1698883200&v=beta&t=3ahkSTiqFkN0p_kJJRXjWvi7GAUMVazlrRERdPc56vw" width=100> Rappaport, Fernando Ariel (https://github.com/TheFercho)
 
+### **`Esquema de Github`**</h3>
+
+├── public
+|     └── index.html
+├── src
+    ├── assets
+    |     ├── audios
+    |     ├── icons
+    |     ├── images
+    |     └── videos
+
+
 ### **`Matriz de responsabilidades`**</h3>
 
 :black_circle: Main
