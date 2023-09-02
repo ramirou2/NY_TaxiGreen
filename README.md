@@ -28,6 +28,4 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 ![Matriz de Responsabilidades](<Imagenes/Matriz de responsabilidades.jpg>)
 
 =======
-# NY_TaxiGreen
-
->>>>>>> main
+# NY_TaxiGreen #
