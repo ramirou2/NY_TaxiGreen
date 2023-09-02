@@ -1,5 +1,4 @@
-<<<<<<< Cristian/Vehicle-Fuel-Economy-Data_ini
-# <h1 align=center> **Proyecto Final de Bootcamp** </h1>
+# <h1 align=center> **Proyecto Final Grupal de HENRY** </h1>
 
 <p align=center><img src="https://github.com/ramirou2/NY_TaxiGreen/assets/111613206/80d5c1d4-7cdb-40a3-b521-2b5e1b4b2b77" width=400> </p>
 
@@ -59,7 +58,4 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 :small_red_triangle:  Support
 
 ![Matriz de Responsabilidades](<Imagenes/Matriz de responsabilidades.jpg>)
-
-=======
-# NY_TaxiGreen #
 
