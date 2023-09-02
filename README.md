@@ -21,10 +21,10 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
 ### **`Esquema de Github`**</h3>
 
-```
+```Python
 .
 ├── Complementary
-|       └── fuel_consumption_ratings
+|       └── fuel_consumption_ratings  
 |       └── yellow_taxis
     ├── air_quality_data.csv  (Dataset_CM_01)
     ├── car_noise.csv  (Dataset_CM_02)
@@ -39,6 +39,13 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
     ├── data_dictionary_trip_records_yellow.pdf
     ├── taxi+_zone_lookup.csv (Dataset_07)
     ├── taxi_zones.dbf
+├── EDA_Notebooks
+    ├── EDA_Dataset_01_&_03.ipynb
+    ├── EDA_Dataset_02.ipynb
+    ├── EDA_Dataset_06.ipynb
+    ├── EDA_Dataset_CM_01.ipynb
+    ├── EDA_Dataset_CM_02_&_03_&_Tripdata_2023_05_parquet.ipynb
+    ├── EDA_fuel_consumption_ratings.ipynb
 ├ .gitignore
 ├ README.md
 ├ requirements.txt
