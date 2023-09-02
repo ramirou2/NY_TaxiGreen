@@ -23,8 +23,6 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
 ```
 .
-├── public
-|     └── index.html
 ├── Datasets
     ├── Alternative Fuel Vehicles US.csv  (Dataset_01)
     ├── Electric and Alternative Fuel Charging Stations.csv  (Dataset_02)
