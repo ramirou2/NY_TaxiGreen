@@ -21,13 +21,11 @@ Reporte Técnico Completo: https://crichubiava.atlassian.net/l/cp/14Q0CXYV
 
 ### **`Esquema de Github`**</h3>
 
-### **`Esquema de Github`**</h3>
-
 ```
 .
 ├── Complementary
 |       └── fuel_consumption_ratings
-        └── yellow_taxis
+|       └── yellow_taxis
     ├── air_quality_data.csv  (Dataset_CM_01)
     ├── car_noise.csv  (Dataset_CM_02)
     ├── weather.csv  (Dataset_CM_03)
