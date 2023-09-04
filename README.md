@@ -4,7 +4,7 @@
 
 # <h1 align=center>**`NY_TaxiGreen: Análisis del movimiento de taxis en la ciudad de Nueva York y su relación con la calidad del aire y la contaminación sonora.`**</h1>
 
- :page_with_curl: [Reporte Técnico Completo](https://crichubiava.atlassian.net/l/cp/14Q0CXYV)
+ 📔: [Reporte Técnico Completo](https://crichubiava.atlassian.net/l/cp/14Q0CXYV)
 
 ### **`Equipo`**</h2>
 
