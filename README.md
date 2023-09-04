@@ -41,6 +41,17 @@
     ├── EDA_Dataset_CM_01.ipynb
     ├── EDA_Dataset_CM_02_&_03_&_Tripdata_2023_05_parquet.ipynb
     ├── EDA_fuel_consumption_ratings.ipynb
+├── ETL_Notebooks
+|        └── Normalizacion_Columnas
+|           ├── normalizacion_Datasets_bases.ipynb
+|           ├── normalizacion_Datasets_complementarios.ipynb
+    ├── ETL_Dataset_01_&_03_&_04_&_07.ipynb
+    ├── ETL_Dataset_02.ipynb
+    ├── ETL_Dataset_06.ipynb
+    ├── ETL_Dataset_07.ipynb
+    ├── ETL_Dataset_CM_01.ipynb
+    ├── ETL_Dataset_CM_02_&_03.ipynb
+    ├── ETL_fuel_consumption_ratings.ipynb
 ├ .gitignore
 ├ README.md
 ├ requirements.txt
