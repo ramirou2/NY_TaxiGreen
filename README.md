@@ -18,13 +18,21 @@
 
 ```Python
 .
-├── Complementary
+├── Complementary  (Datasets complementarios)
 |       └── fuel_consumption_ratings  
 |       └── yellow_taxis
     ├── air_quality_data.csv  (Dataset_CM_01)
     ├── car_noise.csv  (Dataset_CM_02)
     ├── weather.csv  (Dataset_CM_03)
-├── Datasets
+├── Datasets    (Datasets bases)
+|       └── Datasets_Clean  
+|            ├── Alternative Fuel Vehicles US.csv
+|            ├── ElectricCarData_Clean.csv
+|            ├── Electric_and_Alternative_Fuel_Charging_Stations.csv
+|            ├── Light Duty Vehicles.csv
+|            ├── Vehicle Fuel Economy Data.csv
+|            ├── taxi+_zone_lookup.csv
+|            ├── taxi_zones.csv
     ├── Alternative Fuel Vehicles US.csv  (Dataset_01)
     ├── Electric and Alternative Fuel Charging Stations.csv  (Dataset_02)
     ├── ElectricCarData_Clean.csv  (Dataset_03)
