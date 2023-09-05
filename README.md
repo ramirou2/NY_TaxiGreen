@@ -139,6 +139,18 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 >
 > * Aplica para todo: comparar datos de autos a combustión, autos eléctricos, autos híbridos (la actividad que quiere estudiar la empresa) vs micros (la actividad actual de la empresa)
 
+> [!NOTE]\
+> Podría tener:
+> * Modelo para analizar tarifas variables en base al movimiento de las distintas franjas de días y horarios y condiciones climáticas.
+> * Análisis del retorno de la inversión en una flota de autos eléctricos.
+
+> [!WARNING]\
+> Fuera del alcance:
+> * Análisis de marketing
+> * Calificación de servicios y/o condutores
+
+
+
 
 ### **``**
 ### **``**
