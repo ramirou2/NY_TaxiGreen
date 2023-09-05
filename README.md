@@ -123,6 +123,8 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 
 ![](<Imagenes/KPI 05.jpg>)
 
+### **`Alcance (Desarrollar)`**
+
 > [!NOTE]\
 > Debe tener:
 >  
@@ -139,7 +141,6 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 * Aplica para todo: comparar datos de autos a combustión, autos eléctricos, autos híbridos (la actividad que quiere estudiar la empresa) vs micros (la actividad actual de la empresa)
 
 
-### **``**
 ### **``**
 ### **``**
 ### **`Matriz de responsabilidades`**
