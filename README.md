@@ -105,7 +105,7 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 
 Promedio de emisión de CO2 de la nueva flota menor a 3
 
-
+![](<Imagenes/KPI01.jpg>)
 
 
 
