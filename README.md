@@ -66,7 +66,60 @@
 
 
 ```
-### **`Matriz de responsabilidades`**</h3>
+
+# <h2 align=left> **Informe** </h2>
+
+### **`Propósito del proyecto`**
+
+​Taxi Green, una empresa de servicios de transporte de pasajeros, que actualmente se encuentra operando en el sector de micros de media y larga distancia, está interesada en invertir en el sector de transporte de pasajeros con automóviles.
+
+Con una visión de un futuro menos contaminado y ajustarse a las tendencias de mercado actuales, quieren corroborar la relación entre estos medios de transporte particulares con:
+
+* Calidad del aire
+
+* Contaminación sonora
+
+Propósito: estudiar la posibilidad de implementar vehículos eléctricos a su flota; ya sea en su totalidad o parte de la misma.
+
+Se pretende hacer un análisis preliminar del movimiento de los taxis en la ciudad de Nueva York, para poder obtener un marco de referencia y poder tomar decisiones bien fundamentadas.​
+
+### **`Objetivo general`**
+
+Análisis del movimiento vehicular en NYC y su relación con la contaminación del aire y sonora.
+
+### **`Objetivos específicos`**
+
+Comprobar:
+
+Relación entre el mercado automotor y las actividades de transporte en la ciudad de Nueva York con:
+
+    *   La calidad del aire (emisiones de CO2).
+
+    *   La contaminación sonora.
+
+    *   Efecto de las condiciones climáticas con la cantidad de viajes solicitados. 
+
+### **`KPIs Propuestos`**
+
+Se proponen los siguientes KPIs con base de medición trimestral:
+
+Promedio de emisión de CO2 de la nueva flota menor a 3
+
+
+
+
+
+### **``**
+### **``**
+### **``**
+### **`Matriz de responsabilidades`**
+
+:black_circle: Main
+
+:small_red_triangle:  Support
+
+![Matriz de Responsabilidades](<Imagenes/Matriz de responsabilidades.jpg>)
+
 
 :black_circle: Main
 
