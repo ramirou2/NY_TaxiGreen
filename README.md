@@ -103,10 +103,25 @@ Relación entre el mercado automotor y las actividades de transporte en la ciuda
 
 Se proponen los siguientes KPIs con base de medición trimestral:
 
-Promedio de emisión de CO2 de la nueva flota menor a 3
+* Promedio de emisión de CO2 de la nueva flota menor a 3
 
 ![](<Imagenes/KPI 01.jpg>)
 
+* Ruido promedio por diseño de la nueva flota 50 dB
+
+![](<Imagenes/KPI 02.jpg>)
+  
+* Vehículos eléctricos en la flota > 60%
+
+![](<Imagenes/KPI 03.jpg>)
+  
+* autonomía de la nueva flota entre > 300 km
+
+![](<Imagenes/KPI 04.jpg>)
+  
+* Antigüedad de la flota < 3 años (ningún vehículo puede tener más de 3 años)
+
+![](<Imagenes/KPI 05.jpg>)
 
 
 ### **``**
