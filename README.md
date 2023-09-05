@@ -105,7 +105,7 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 
 Promedio de emisión de CO2 de la nueva flota menor a 3
 
-![](<Imagenes/KPI01.jpg>)
+![](<Imagenes/KPI 01.jpg>)
 
 
 
@@ -113,13 +113,6 @@ Promedio de emisión de CO2 de la nueva flota menor a 3
 ### **``**
 ### **``**
 ### **`Matriz de responsabilidades`**
-
-:black_circle: Main
-
-:small_red_triangle:  Support
-
-![Matriz de Responsabilidades](<Imagenes/Matriz de responsabilidades.jpg>)
-
 
 :black_circle: Main
 
