@@ -697,21 +697,27 @@ Estos datos se recogen de una API con una frecuencia mensual.
 ## Tablas Dimensión:
 
 *-Autos:*  
+
 Contiene datos detallados sobre la economía de combustible y las especificaciones técnicas de una variedad de vehículos, incluyendo información sobre consumo de combustible, emisiones de CO2 y ruido que produce el motor.
 
 *-Taxi_zones:*
+
 Proporciona información sobre las zonas de taxis en diferentes distritos, incluyendo detalles sobre las ubicaciones, distritos, nombres de zonas y zonas de servicio asociadas..
 
 *-Tipo_combustible:*
+
 Tipo de combustible del vehículo.
 
 *-Clase_vehiculo:*
+
 Tipo de combustible del vehículo (Sedan, Hatchback, SUV, Pick Up).
 
 *-Marca_auto:*
+
 Fabricante del vehículo.
 
-/*Método_pago:*
+*Método_pago:*
+
 Método de pago utilizado para abonar el viaje.
 
 ### Analítica de datos.
