@@ -595,68 +595,61 @@ Los servicios en la nube se pueden dividir en tres categorías fundamentales:
 
  
 
-Exploración de plataformas
+### Exploración de plataformas
+
 En las primeras etapas, se tomó la decisión de analizar detenidamente tres plataformas diferentes para la implementación de nuestro Data Warehouse (DW), considerando sus características y ventajas en consonancia con nuestros objetivos.
 
  
+<p align= left>
+<img src="Imagenes/Plataforma_01.jpg" width=100> Planet Scale: Introducida como una base de datos 'serverless', Planet Scale se integra armónicamente con MySQL, ofreciendo no solo escalabilidad y rendimiento, sino también un alto nivel de confiabilidad. Esta plataforma no compromete la experiencia del desarrollador. Al adoptar Planet Scale, accedemos a capacidades de fragmentación horizontal, cambios de esquema sin bloqueos y potentes funciones de base de datos, sin incurrir en las dificultades de su implementación. </p>
 
+[Enlace a Planet Scale](https://planetscale.com/)
 
-Planet Scale: Introducida como una base de datos 'serverless', Planet Scale se integra armónicamente con MySQL, ofreciendo no solo escalabilidad y rendimiento, sino también un alto nivel de confiabilidad. Esta plataforma no compromete la experiencia del desarrollador. Al adoptar Planet Scale, accedemos a capacidades de fragmentación horizontal, cambios de esquema sin bloqueos y potentes funciones de base de datos, sin incurrir en las dificultades de su implementación.
+<p align= left>
+<img src="Imagenes/Plataforma_02.jpg" width=100> Render: Render se distingue por su asombrosa facilidad de uso y su sorprendente capacidad de empoderamiento, generando un entorno altamente escalable. Desde la administración de una simple página HTML hasta la gestión de aplicaciones complejas con múltiples microservicios, Render presenta una solución integral y versátil.</p>
 
-Enlace a Planet Scale 
+[Enlace a Render](https://render.com/)
 
- 
+<p align= left>
+<img src="Imagenes/Plataforma_03.jpg" width=100> Google Cloud Platform (GCP): GCP emerge como una suite integral de servicios en la nube, diseñada y proporcionada por Google. Esta plataforma abarca desde servicios de infraestructura hasta soluciones de nivel superior. Dentro de este amplio abanico, Platform as a Service (PaaS) ocupa una posición destacada. La selección de GCP para nuestro proyecto se fundamenta en su capacidad para unificar diversas herramientas bajo un mismo paraguas, evitando la incompatibilidad de software, hardware y otros componentes. Esta cohesión contribuye significativamente a la eficiencia y coherencia en la operación del DW.</p>
 
+[Enlace a Google Cloud Platform](https://cloud.google.com/)
 
-Render: Render se distingue por su asombrosa facilidad de uso y su sorprendente capacidad de empoderamiento, generando un entorno altamente escalable. Desde la administración de una simple página HTML hasta la gestión de aplicaciones complejas con múltiples microservicios, Render presenta una solución integral y versátil.
+### Uso de Servicios Cloud (GCP)
 
-Enlace a Render
-
- 
-
-
-Google Cloud Platform (GCP): GCP emerge como una suite integral de servicios en la nube, diseñada y proporcionada por Google. Esta plataforma abarca desde servicios de infraestructura hasta soluciones de nivel superior. Dentro de este amplio abanico, Platform as a Service (PaaS) ocupa una posición destacada. La selección de GCP para nuestro proyecto se fundamenta en su capacidad para unificar diversas herramientas bajo un mismo paraguas, evitando la incompatibilidad de software, hardware y otros componentes. Esta cohesión contribuye significativamente a la eficiencia y coherencia en la operación del DW.
-
-Enlace a Google Cloud Platform
-
-Uso de Servicios Cloud (GCP)
 Los servicios en la nube ofrecen una solución escalable y flexible para alojar aplicaciones, almacenar y gestionar datos, y realizar análisis en tiempo real. 
 
 En este proyecto hemos utilizado un servicio PaaS, Google Cloud Platform (GCP), una suite completa de servicios en la nube proporcionados por Google.
 
 La elección final se respalda en su conjunto de servicios en la nube que engloban desde computación y almacenamiento hasta análisis y aprendizaje automático. Al aprovechar las tecnologías que GCP pone a nuestra disposición, evitamos la complejidad de sincronizar múltiples herramientas de distintos proveedores. En muchos casos, estas incompatibilidades pueden traducirse en barreras software-hardware que obstaculizan la eficiencia y la cohesión. Entre las herramientas de GCP que serán de utilidad en nuestro proyecto, destacamos:
 
-Almacenamiento y bases de datos:
+#### Almacenamiento y bases de datos:
 
-Cloud Storage: Proporciona un almacenamiento en la nube escalable y duradero para objetos y archivos.
+- Cloud Storage: Proporciona un almacenamiento en la nube escalable y duradero para objetos y archivos.
+- Cloud SQL: Ofrece una base de datos SQL administrada.
 
-Cloud SQL: Ofrece una base de datos SQL administrada.
+#### Análisis y Big Data:
 
-Análisis y Big Data:
+- BigQuery: Brinda un almacén de datos y análisis en tiempo real a gran escala.
+- Dataflow: Facilita el procesamiento de datos en tiempo real y por lotes.
+- Dataproc: Proporciona un servicio administrado de Apache Spark y Hadoop.
 
-BigQuery: Brinda un almacén de datos y análisis en tiempo real a gran escala.
+#### Analytics y Machine Learning:
 
-Dataflow: Facilita el procesamiento de datos en tiempo real y por lotes.
+- Diversas herramientas para análisis y aprendizaje automático, tales como Tensor Flow, AI Platform, entre otros.
 
-Dataproc: Proporciona un servicio administrado de Apache Spark y Hadoop.
+#### Servicios de identidad y seguridad:
 
-Analytics y Machine Learning:
+- Identity and Access Management (IAM): Ofrece control de acceso y gestión de identidades.
 
-Diversas herramientas para análisis y aprendizaje automático, tales como Tensor Flow, AI Platform, entre otros.
+#### Otros servicios:
 
-Servicios de identidad y seguridad:
-
-Identity and Access Management (IAM): Ofrece control de acceso y gestión de identidades.
-
-Otros servicios:
-
-Cloud Functions: Posibilita la ejecución de código en respuesta a eventos.
-
-Cloud Vision, Translation, Speech, Natural Language, Video AI: Proporciona servicios de inteligencia artificial para análisis de imágenes, traducción, reconocimiento de voz, procesamiento de lenguaje natural y análisis de video.
+- Cloud Functions: Posibilita la ejecución de código en respuesta a eventos.
+- Cloud Vision, Translation, Speech, Natural Language, Video AI: Proporciona servicios de inteligencia artificial para análisis de imágenes, traducción, reconocimiento de voz, procesamiento de lenguaje natural y análisis de video.
 
 La elección estratégica de GCP como plataforma principal subraya nuestro compromiso con la eficiencia, la coherencia y la compatibilidad en el diseño y operación de nuestro Data Warehouse.
 
-Arquitectura:
+## Arquitectura:
 
  
 
