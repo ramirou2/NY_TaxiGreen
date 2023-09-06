@@ -169,7 +169,9 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 | Demo Sprint #3 | Data Analytics y ML |Etapa de Analytics y Machine Learning <br> * Dashboard <br> * Reportes <br> * Storytelling <br> * Modelo ML <br> * Ajustes del modelo |* Implementar modelo de ML <br> * Implementar un reporte de visualización geográfica.|06/09/2023
 | |Demo Final |  * Demo general del proyecto <br> * Entregable final<br> * Documentación| * Presentación dirigida a la dirección de la compañía. <br> * Retomar lo mostrado en presentaciones anteriores. <br> * Retoques finales en base a recomendaciones de HM y PO. | 06/09/2023 |
 
+
 ### <h3 align=left>**`Propuesta de trabajo`** </h3>
+***
 
 Recopilación y limpieza
 - [x] Se utilizan los archivos .csv provistos por el cliente. También se estudian los datasets complementarios facilitados por el cliente, así como también información extra recopilada por el equipo.
@@ -177,7 +179,28 @@ Recopilación y limpieza
 - [x] Los dataset considerados necesarios para el desarrollo del producto final del proyecto, se limpian, ordenan y normalizan.
 - [x] Además, se realiza un análisis exploratorio de datos con el objetivo de detectar insights de interés para el cliente.
 
-`#0969DA Tecnología y librerías utilizadas: Python, Pandas, Numpy, os`
+`Tecnología y librerías utilizadas: Python, Pandas, Numpy, os`
 
+Creación de un diccionario y diagrama DER
+- [x] Los datasets son procesados y analizados para generar un diccionario de las variables de interés. 
+- [x] Se utiliza esta información para establecer un diagrama de entidad - relación que facilite su posterior análisis
 
+Disponibilización de la información
+- [x] Se crea un DataWarehouse utilizando las herramientas Cloud de Google.
 
+`Tecnología y librerías utilizadas: MySQL, Google Cloud`
+
+Análisis de la información y Dashboard interactivo
+- [x] Se diseña un dashboard con información relevante para el negocio teniendo en cuanta los KPIs definidos para tal fin.
+
+`Tecnología y librerías utilizadas: Power BI / Streamlit /Locker studio?`
+
+Modelo de Machine Learning
+- [x] Modelo predictivo ML: evolución de la calidad del aire en función del uso de los medios de transporte (distintos escenarios considerando distinta composición de la flota en cuanto a modelos de auto)
+- [x] Modelo predictivo ML: modelar la evolución de la contaminación sonora en función del uso de los medios de transporte (distintos escenarios considerando distinta composición de la flota en cuanto a modelos de auto)
+
+`Tecnología y librerías utilizadas: Python, Pandas, Numpy, Seaborn, Matplotlib, sklearn`
+
+App / Web interactiva
+- [x] El modelo de machine learnig de disponibiliza a través de una página web, facilitando la interacción con el cliente.
+- [x] Tecnología y librerías utilizadas: Python, FastAPI, Render
