@@ -651,15 +651,16 @@ La elección estratégica de GCP como plataforma principal subraya nuestro compr
 
 ## Arquitectura:
 
+<p align= left>
+<img src="Imagenes/Arquitectura.jpg" width=800></p>
  
-
-Data Warehouse.
+## Data Warehouse.
 Creación del Data Warehouse 
-
+<p align= left>
+<img src="Imagenes/datawarehouse.jpg" width=800></p>
  
-
-Carga inicial:
-
+<p align= left>
+<img src="Imagenes/carga_inicial.jpg" width=800></p>
  
 
 Carga Incremental: 
@@ -667,33 +668,33 @@ La automatización del Data Warehouse se logró mediante la programación de pro
 
 Para garantizar la eficiencia en la carga de datos, implementamos un enfoque de carga incremental. Solo se cargaron los datos nuevos o modificados desde la última ejecución del proceso ETL, lo que redujo el tiempo de procesamiento y aseguró la consistencia de los datos.
 
-Enlace a video - PENDIENTE
-
+** Enlace a video - PENDIENTE **
  
 
-Diagrama de Entidad - Relación (DER)
+## Diagrama de Entidad - Relación (DER)
 En nuestro Data Warehouse, se crearon dos tablas de hecho y cinco tablas de dimensiones. Las tablas de hecho contienen medidas cuantitativas de interés, mientras que las tablas de dimensiones almacenan atributos descriptivos que permiten contextualizar y analizar las medidas.
 
-
+<p align= left>
+<img src="Imagenes/DER_Final.jpg" width=800></p>
  
 
-Tablas de Hecho:
+## Tablas de Hecho:
 
-Viajes: 
+*- Viajes: *
 
 Proporciona información sobre viajes que realiza la compañía en la ciudad de Nueva York, incluyendo detalles sobre las ubicaciones de inicio y fin y tarifas.
 
-Autos_flota: 
+*- Autos_flota: *
 
 Contiene información sobre los vehículos que son propiedad de la empresa.
 
-Clima: 
+*- Clima: * 
 
 Proporciona información sobre las condiciones climáticas, incluyendo temperaturas y precipitaciones, en diferentes momentos, a lo largo de un período de tiempo de un año, con registros diarios.
 
 Estos datos se recogen de una API con una frecuencia mensual.
 
-Tablas Dimensión:
+## Tablas Dimensión:
 
 Autos:  
 
