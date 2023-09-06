@@ -316,4 +316,123 @@ En cuanto al segmento la distribución se correlaciona con los precios, tal como
 <p align= Center>
 <img src="Imagenes/EDA Imagen 06.jpg" width=800> </p>
 
+### Vehicle Fuel Economy Data.csv
+
+Contiene datos detallados sobre la economía de combustible y las especificaciones técnicas de una variedad de vehículos, incluyendo información sobre consumo de combustible, emisiones y características del motor.
+
+Consta de 46186 filas y 82 columnas. Hay una variedad de características relacionadas con la economía de combustible, el rendimiento y las especificaciones técnicas de los vehículos.
+
+> EDA Detalle
+
+Evolución de Emisiones de CO2 a los largo de los años
+
+Claramente, la tendencia a fabricar vehículos con cada vez menos emisiones de CO2 es clara y se intensifica a partir del 2004.
+
+(imagen eda 07)
+
+Evolución de Emisiones de CO2 a los largo de los años
+
+Claramente, la tendencia a fabricar vehículos con cada vez menos emisiones de CO2 es clara y se intensifica a partir del 2004.
+
+(imagen eda 08)
+
+Emisión por tipos de combustible
+
+Como es obvio, los vehículos eléctricos son los que menos emiten. 
+
+En cuanto a los vehículos de gasolina, no hay una gran diferencia entre los que usan grado premiun o grado medio. Sí es notable que los que usan gasolina regular son los que más CO2 emiten.
+
+(imagen eda 09)
+
+Emisiones promedio por Clase de vehículo (2022)
+
+Claramente, los modelos menos nocivos para el aire son los compactos, seguidos por los vehículos grandes y medianos.
+
+En el otro extremo del gráfico, se encuentran los autos deportivos (two seats) y las Vans, que seguramente no serán considerados para nuestra flota.
+
+Teniendo en cuenta que la flota de vehículos transitará por calles de la ciudad, concideramos que las Pick Ups y las SUVs son vehículos de gran porte y muy incómodos para estos fines.  
+
+(imagen eda 10)
+
+Cabe destacar que este dataset cuenta con información sobre vehículos a gasolina que no serán tenidos en cuenta para conformar la flota de vehículos de la nueva unidad de negocios.
+
+MY2012-2023_Battery_Electric_Vehicles.csv, MY2012-2023 Plug-in Hybrid Electric Vehicles.csv, MY2022 Fuel Consumption Ratings.csv y MY2023 Fuel Consumption Ratings.csv
+Se trata de un conjunto de datos, compuesto por 4 archivos, que contienen información sobre vehículos fabricados en los años 2012 a 2023.
+
+Cada archivo contiene datos de vehículos con un tipo de combustible (eléctrico, híbrido o a combustión). Las columnas contienen información sobre diversas características de los vehículos, como su potencia, consumo de energía, autonomía y emisiones.
+
+Ante todo, recordamos los objetvios planteados que se relacionan con este Dataset:
+
+Emisiones CO2 < 300 gpm (320 g/km)
+
+Autonomía: >300 km
+
+En cuanto a emisiones:
+
+Emisiones por tipo de combustible:
+
+En el dataset utilizado:
+
+B = electricidad
+
+X = gasolina regular
+
+Z = gasolina premium
+
+Como era de esperar, los vehículos eléctricos son los que menos emiten, con valores de 0.
+
+Hay que destacar que es notable la diferencia entre B/X (78 g/km) y B/Z (112 g/km). Quiere decir que el hibrido eléctrico/gasolina regular emite un 30% menos CO2 que el híbrido eléctrico/gasolina premium.
+
+(imagen eda 11)
+
+Emisiones por clase de vehículo:
+
+El objetivo que nos habíamos puesto era 300 g/m (320 g/km) (en base al archivo Vehicle Fuel Economy Data.csv). Este objetivo lo pusimos teniendo en cuenta TODOS los vehículos del mercado, inclusive, lo que usan gasolina.
+
+En este caso, sólo analizamos eléctrico e híbridos. Nuestra flota va a estar compuesta de eléctricos e híbrido. Por ende, tenemos que revisar el objetivo planteado originalmente.
+
+(imagen eda 12)
+
+Conclusión en cuanto a emisiones de CO2:
+
+En primer lugar, debemos reformular el KPI puesto que el valor anterior los definimos basandonos en un dataset que contiene vehículos a gasolina. Luego definimos no tenerlos en cuenta en nuestro análisis por la tendencia en la ciudad y la exigencias gubernamentales.
+
+Los vehículos target para nuestra flota (Full-size y Mid-size) emiten, en promedio, menos de 20 g/km.
+
+*Así mismo, también se observa que los modelos híbridos eléctrico/gasolina regular son mucho menos contaminantes que los modelos eléctricos/gasolina premium.
+
+En cuanto a autonomía:
+
+Autonomía por tipo de vehículo:
+
+(imagen eda 13)
+
+En el dataset utilizado:
+
+B = electricidad
+
+X = gasolina regular
+
+Z = gasolina premium
+
+Se observa que los vehículos eléctricos son los que menos autonomía tienen (en promedio). Y los vehículos con más autonomía son los Híbridos eléctrico/gasolina premiun (+80 % respecto al eléctrico).
+
+Sin embargo, la autonomía promedio de los autos eléctricos está por encima de los 400 km, lo cual se situa dentro de la franja establecida como aceptable para nuestra flota (> 300 km).
+
+Autonomía por clase de vehículo:
+
+En cuanto a autonomía, podemos ver que los Full-size tienen un promedio (300km) al límite de nuestro rango aceptable de autonomía (de 300 a 500 km).
+
+También es notorio que el promedio de autonomía en los mid-size (460 km) es perfecto para nuestro objetivo.
+
+(imagen eda 14)
+
+Conclusión en cuanto a autonomía:
+
+Los vehículos eléctricos cumplen, en promedio (400 km), con el rango propuesto de autonomía objetivo para nuestra flota.
+
+Si observamos las clases de vehículos, los Full-size están al límite del rango objetivo (300 km). Mientras que los Mid-size tienen un promedio (460km) perfecto para nuestro rango objetivo. Lo cual podría marcarnos una inclinación hacia los vehículos Mid-size.
+
+
+
 
