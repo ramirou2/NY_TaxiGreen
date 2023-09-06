@@ -149,11 +149,6 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 > * Análisis de marketing
 > * Calificación de servicios y/o condutores
 
-
-
-
-### **``**
-### **``**
 ### **`Matriz de responsabilidades`**
 
 :black_circle: Main
@@ -161,3 +156,87 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 :small_red_triangle:  Support
 
 ![Matriz de Responsabilidades](<Imagenes/Matriz de responsabilidades.jpg>)
+
+# <h2 align=left> **Plan de trabajo** </h2>
+
+| Hito | Nombre | Entregables | Esperado | Fecha |
+|:---------------:|:---------:|:---------:|:---------:|:---------:|
+| Demo Sprint #1 | Data Ingest  Process | Puesta en marcha el proyecto y Trabajando los Datos 
+* Kickoff del proyecto
+* Entendimiento de las necesidades
+* Documentar alcance , objetivo y entregables
+* KPI’s
+* Implementación de stack propuesto |
+| * Más de 4 KPIs
+* Mencionar las tecnologías a usar
+* Documentación de alcance del proyecto
+* EDA preliminar, calidad del dato
+* Repo Github
+* Planificación y estimación de esfuerzos (Diagrama de Gantt) |
+| 09/08/2023 |
+
+Demo Sprint #2
+
+Data Analytics & ML
+
+Data Engineering
+
+Arquitectura propuesta y diagrama
+
+Diccionarios de datos
+
+Creación del DW
+
+Automatizar el DW
+
+Carga incremental
+
+ 
+
+DW con herramientas Big Data (HDFS, Hive, Spark y/o motores No-SQL y/o Servicios Cluod)
+
+DW automatizado con carga inicial.
+
+Al menos 2 tablas de hechos y 5 dimensionales.
+
+Carga incremental de datos (video).
+
+23/08/2023
+
+Demo Sprint #3
+
+Data Analytics y ML
+
+Etapa de Analytics y Machine Learning
+
+Dashboard
+
+Reportes
+
+Storytelling
+
+Modelo ML
+
+Ajustes del modelo
+
+Implementar modelo de ML.
+
+Implementar un reporte de visualización geográfica.
+
+06/09/2023
+
+Demo Final
+
+Demo general del proyecto
+
+Entregable final
+
+Documentación
+
+Presentación dirigida a la dirección de la compañía.
+
+Retomar lo mostrado en presentaciones anteriores.
+
+Retoques finales en base a recomendaciones de HM y PO.
+
+06/09/2023
