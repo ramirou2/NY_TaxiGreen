@@ -231,9 +231,9 @@ Para nuestro proyecto, desarrollamos el logotipo de la empresa consultora (Taxi 
 <p align= Center>Logo Corporativo <br>
 <img src="Imagenes/Logo Corporativo.jpg" width=200> </p>
 
-### Trabajo realizado en ETL
+## Trabajo realizado en ETL
 
-## Recopilación y limpieza
+### Recopilación y limpieza
 
 En la carpeta Datasets se encuentran los archivos .csv con la información provista por el cliente que contienen los datos a ser procesados.
 
@@ -249,7 +249,7 @@ Seguidamente, se llevó a cabo un análisis exploratorio de los datos con el obj
 
 ## ETL y EDA de datasets relacionados con la emisión de CO2
 
-# Alternative Fuel Vehicles US.csv
+### Alternative Fuel Vehicles US.csv
 
 Contiene información sobre vehículos de combustible alternativo en Estados Unidos. Es una recopilación sobre vehículos de combustible alternativo en Estados Unidos, incluyendo sus características técnicas y de rendimiento.
 
@@ -274,5 +274,43 @@ Sin embargo, en lo que eficiencia energética se refiere, en este caso, reflejad
 El siguiente histograma muestra que la autonomía media de los modelos eléctricos evaluados ronda los 250 km, En su mayoría superan los 200 km y alcanzan valores de hasta 500 km.
 <p align= Center>
 <img src="Imagenes/EDA Imagen 03.jpg" width=800> </p>
+
+### ElectricCarDat_Clean.csv
+
+Contiene datos relacionados con vehículos eléctricos. 
+
+Consta de 103 filas y 14 columnas. Cada fila representa un modelo específico de coche eléctrico y cada columnas proporciona información detallada sobre sus características, incluyendo sus detalles de rendimiento, autonomía, eficiencia y opciones de carga entre otras.
+
+> EDA Detalle
+
+Correlación Autonomía (rango eléctrico) - Precio
+
+En el siguiente gráfico se presenta lo que parece una correlación positiva entre el precio y el rendimiento en km (autonomía). 
+
+Se observa un outlier con autonomía de 1.000 km y precio de 200.000 euros que corresponde al segmento es un S, donde se enmarcan los súper deportivos.
+
+En línea con esto, cabe destacar la correspondencia del tipo de segmento con el precio y la autonomía. Vale decir que los mejores rendimientos y mayores precios van de la mano con el segmento, notese el F que se refiere a sedanes de lujo y S que son los súper deportivos. En cuanto a los del segmento A son los más económicos, pequeños y de menor rendimiento.
+
+Para destacar en este punto tenemos en el área central a vehículos con una autonomía de alrededor de 400 km y un precio promedio de 60 000 euros, correspondientes al segmento C (compactos de 5 pasajeros) y D (Segmento mejorado en espacio, rendimiento y confort, con un precio un poco más elevado).
+
+En cuanto al segmento A y B ocupan un rango razonable de rendimiento y precio, donde se debe mirar con más énfasis los de tipo B dado su mayor tamaño.
+
+Los del tipo B podrían ser nuestro producto objetivo en vistas a proyectar una flota eficiente.
+
+(grafico eda 04)
+
+Correlación Body Style - Precio
+
+Si tenemos en cuenta el formato o Body Style no se nota tanto la clusterización por precio y rango, sin embargo se destaca el predominio del estilo hatchback y SUV.
+
+(grafico eda 05)
+
+Carga rápida - Precio
+
+La situación anterior se repite si ahora en vez de rango de rendimiento en Km empleamos la velocidad de carga en km/h, se nota que a medida que este parametro crece, también lo hace el precio. 
+
+En cuanto al segmento la distribución se correlaciona con los precios, tal como se destacó anteriormente.
+
+(grafico eda 06)
 
 
