@@ -257,3 +257,10 @@ Consta de 882 filas y 22 columnas. Cada fila representa un vehículo específico
 
 > EDA Detalle
 
+En el siguiente gráfico se puede apreciar que en el Top5 se encuentran 3 marcas alemanas: Audi, Mercedes Benz y BMW, todos con fama de buen funcionamiento y motores de alto rendimiento y potencia, además de ser marcas muy reconocidas a nivel mundial, generalmente asociadas a un nivel alto de poder adquisitivo.
+
+También se encuentran Ford, la marca Norteamericana por excelencia y Toyota, también muy reconocida a nivel mundial y sinónimo de confiabilidad.
+
+Se puede concluir que el mercado estadounidense se inclina hacia marcas de renombre y reconocidas por su mecánica potente, confiable y duradera.
+
+<img align=center src="Imagenes/EDA Imagen 01.jpg" width=600>
