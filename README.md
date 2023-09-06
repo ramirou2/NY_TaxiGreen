@@ -157,86 +157,19 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 
 ![Matriz de Responsabilidades](<Imagenes/Matriz de responsabilidades.jpg>)
 
+
+
 # <h2 align=left> **Plan de trabajo** </h2>
 
 | Hito | Nombre | Entregables | Esperado | Fecha |
 |:---------------:|:---------:|:---------:|:---------:|:---------:|
-| Demo Sprint #1 | Data Ingest  Process | Puesta en marcha el proyecto y Trabajando los Datos 
-* Kickoff del proyecto
-* Entendimiento de las necesidades
-* Documentar alcance , objetivo y entregables
-* KPI’s
-* Implementación de stack propuesto |
-| * Más de 4 KPIs
-* Mencionar las tecnologías a usar
-* Documentación de alcance del proyecto
-* EDA preliminar, calidad del dato
-* Repo Github
-* Planificación y estimación de esfuerzos (Diagrama de Gantt) |
-| 09/08/2023 |
+| Demo Sprint #1 | Data Ingest  Process | Puesta en marcha el proyecto y Trabajando los Datos: <br> * Kickoff del proyecto  <br>* Entendimiento de las necesidades <br>* Documentar alcance , objetivo y entregables <br>* KPI’s <br>* Implementación de stack propuesto | * Más de 4 KPIs <br>* Mencionar las tecnologías a usar <br>* Documentación de alcance del proyecto <br>* EDA preliminar, calidad del dato <br>* Repo Github <br>* Planificación y estimación de esfuerzos (Diagrama de Gantt) | 09/08/2023 |
+|Demo Sprint #2 | Data Analytics & ML |Data Engineering:<br> * Arquitectura propuesta y diagrama<br> * Diccionarios de datos <br> * Creación del DW <br> * Automatizar el DW <br> * Carga incremental | * DW con herramientas Big Data (HDFS, Hive, Spark y/o motores No-SQL y/o Servicios Cluod) <br> * DW automatizado con carga inicial <br> * Al menos 2 tablas de hechos y 5 dimensionales  <br> * Carga incremental de datos (video) | 23/08/2023
+| Demo Sprint #3 | Data Analytics y ML |Etapa de Analytics y Machine Learning <br> * Dashboard <br> * Reportes <br> * Storytelling <br> * Modelo ML <br> * Ajustes del modelo |* Implementar modelo de ML <br> * Implementar un reporte de visualización geográfica.|06/09/2023
+| |Demo Final |  * Demo general del proyecto <br> * Entregable final<br> * Documentación| * Presentación dirigida a la dirección de la compañía. <br> * Retomar lo mostrado en presentaciones anteriores. <br> * Retoques finales en base a recomendaciones de HM y PO. | 06/09/2023 |
 
-Demo Sprint #2
 
-Data Analytics & ML
 
-Data Engineering
 
-Arquitectura propuesta y diagrama
 
-Diccionarios de datos
 
-Creación del DW
-
-Automatizar el DW
-
-Carga incremental
-
- 
-
-DW con herramientas Big Data (HDFS, Hive, Spark y/o motores No-SQL y/o Servicios Cluod)
-
-DW automatizado con carga inicial.
-
-Al menos 2 tablas de hechos y 5 dimensionales.
-
-Carga incremental de datos (video).
-
-23/08/2023
-
-Demo Sprint #3
-
-Data Analytics y ML
-
-Etapa de Analytics y Machine Learning
-
-Dashboard
-
-Reportes
-
-Storytelling
-
-Modelo ML
-
-Ajustes del modelo
-
-Implementar modelo de ML.
-
-Implementar un reporte de visualización geográfica.
-
-06/09/2023
-
-Demo Final
-
-Demo general del proyecto
-
-Entregable final
-
-Documentación
-
-Presentación dirigida a la dirección de la compañía.
-
-Retomar lo mostrado en presentaciones anteriores.
-
-Retoques finales en base a recomendaciones de HM y PO.
-
-06/09/2023
