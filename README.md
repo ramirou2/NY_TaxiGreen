@@ -264,3 +264,15 @@ También se encuentran Ford, la marca Norteamericana por excelencia y Toyota, ta
 Se puede concluir que el mercado estadounidense se inclina hacia marcas de renombre y reconocidas por su mecánica potente, confiable y duradera.
 <p align= Center>
 <img src="Imagenes/EDA Imagen 01.jpg" width=800> </p>
+
+Así mismo,  los vehículos híbridos (Hybrid Electric) se destacan por el resto, notando el arraigo de la sociedad a desprenderse del uso del petroleo, ya sea por comodidad, potencia, fidelidad, etc.
+<p align= Center>
+<img src="Imagenes/EDA Imagen 02.jpg" width=800> </p>
+
+Sin embargo, en lo que eficiencia energética se refiere, en este caso, reflejada por la autonomía en marcha puramente eléctrica, los vehículos eléctricos sacan una ventaja considerable sobre los híbrido.
+
+El siguiente histograma muestra que la autonomía media de los modelos eléctricos evaluados ronda los 250 km, En su mayoría superan los 200 km y alcanzan valores de hasta 500 km.
+<p align= Center>
+<img src="Imagenes/EDA Imagen 03.jpg" width=800> </p>
+
+
