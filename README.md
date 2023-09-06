@@ -297,13 +297,15 @@ En cuanto al segmento A y B ocupan un rango razonable de rendimiento y precio, d
 
 Los del tipo B podrían ser nuestro producto objetivo en vistas a proyectar una flota eficiente.
 
-(grafico eda 04)
+<p align= Center>
+<img src="Imagenes/EDA Imagen 04.jpg" width=800> </p>
 
 Correlación Body Style - Precio
 
 Si tenemos en cuenta el formato o Body Style no se nota tanto la clusterización por precio y rango, sin embargo se destaca el predominio del estilo hatchback y SUV.
 
-(grafico eda 05)
+<p align= Center>
+<img src="Imagenes/EDA Imagen 05.jpg" width=800> </p>
 
 Carga rápida - Precio
 
@@ -311,6 +313,7 @@ La situación anterior se repite si ahora en vez de rango de rendimiento en Km e
 
 En cuanto al segmento la distribución se correlaciona con los precios, tal como se destacó anteriormente.
 
-(grafico eda 06)
+<p align= Center>
+<img src="Imagenes/EDA Imagen 06.jpg" width=800> </p>
 
 
