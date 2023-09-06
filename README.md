@@ -441,6 +441,133 @@ Los vehículos eléctricos cumplen, en promedio (400 km), con el rango propuesto
 
 Si observamos las clases de vehículos, los Full-size están al límite del rango objetivo (300 km). Mientras que los Mid-size tienen un promedio (460km) perfecto para nuestro rango objetivo. Lo cual podría marcarnos una inclinación hacia los vehículos Mid-size.
 
+## ETL y EDA de datasets relacionados con la contaminación sonora
 
+### Car Noise (Web Scrapping)
+Proporciona información sobre los niveles de ruido de varios modelos de automóviles en diferentes velocidades.
+
+El DataFrame tiene un total de 1,894 filas y 10 columnas.
+
+Los modelos de automóviles se agrupan por marca, modelo y año de fabricación.
+
+<b>Niveles de ruido según Velocidad</b>
+
+A simple vista podemos mencionar que aparentemente los db son directamente proporcionales a la velocidad, lo cual tiene sentido dado el funcionamiento mecánico de un motor.
+
+<p align= Center>
+<img src="Imagenes/EDA_Complementario_01.jpg" width=800> </p>
+
+<br> <b>Ruido por marca de Auto</b>
+
+Se puede ver que independiente de la marca, el ruido a mayor velocidad es mayor. 
+
+Además, se observa que en posiciónat idle (regulando - velocidad 0) los valores raramente superan lo 50 dB.
+
+El rango de velocidad que nos interesará en el estudio es at idle y 55 mph (80 km/h). Esto es porque, en general, en las ciudades grandes, raramente se superen los 80 km/h (velocidad máxima en las circunvalaciones). 
+
+<img src="EDA_Complementario_02.jpg" width=800>
+
+<br> <b>Ruido por año</b>
+
+En este gráfico, podemos ver la evolución promedio del ruido en dB de autos. 
+
+Algo a destacar, que en el rango de interés (at idle y 55mph), el ruido a disminuido en el rango temporal que se tiene.
+
+<img src="EDA_Complementario_03.jpg" width=800>
+
+## ETL y EDA de datasets relacionados con el transporte e infraestructura
+
+### Electric and Alternative Fuel Charging Station.csv
+
+Contiene información sobre estaciones de carga de combustibles alternativos y vehículos eléctricos.
+
+El conjunto de datos contiene un total de 70406 registros y 65 columnas. Las columnas proporcionan información detallada sobre las estaciones de carga de combustibles alternativos y los servicios que ofrecen.
+
+Podemos notar que hubo un incremento de la cantidad de estaciones en estos últimos años, con un incremento importante en el año 2021.
+
+<img src="EDA_Complementario_04.jpg" width=800>
+
+### taxi+_zone_lookup.csv
+
+Proporciona información sobre las zonas de taxis en diferentes distritos, incluyendo detalles sobre las ubicaciones, distritos, nombres de zonas y zonas de servicio asociadas..
+Consta de 265 filas y 4 columnas. Las filas representan diferentes ubicaciones de taxi en diversos distritos y zonas, junto con sus respectivas zonas de servicio.
+
+### Yellow Taxis NY
+
+Proporciona información detallada sobre viajes en taxis en la ciudad de Nueva York, incluyendo detalles sobre las ubicaciones de inicio y fin, tarifas, costos adicionales, propinas y otros aspectos relacionados con el servicio de taxi.
+
+El DataFrame tiene un total de 3,513,649 filas y 19 columnas.
+
+Algunos datos respecto a la calidad de los datos:
+
+- Hay valores faltantes en algunas columnas (por ejemplo, en la columna "passenger_count").
+
+- La columna "trip_distance" muestra una amplia variedad de valores, incluidos valores atípicos.
+
+#### Distancias de viajes:
+
+Se observa un promedio de viajes de al rededor de 2 millas (3,2 km) con máximos de hasta 7 millas (11,2 km).
+
+<img src="EDA_Complementario_05.jpg" width=800>
+
+#### Costo de los viajes:
+
+Se observa un promedio de 15 dólares por viaje sin outliers con máximos de hasta 40 dólares.
+
+Hay algunos valores menores a 0 que habría reveer, posiblemente sean equivocados.
+
+<img src="EDA_Complementario_06.jpg" width=800>
+
+#### Modo de pago:
+
+Para el modo de pago se debe tener en cuenta que: 0= Credit card 1= Cash 2= No charge 3= Dispute 4= Unknown 5= Voided trip
+
+Se observa que la mayoría de los pagos son en efectivo.
+
+<img src="EDA_Complementario_07.jpg" width=800>
+
+#### Viajes por zonas:
+
+Se oberva que casi la totalidad de los viajes incluye el traslado entre distintas "*Taxi Zone*"
+
+<img src="EDA_Complementario_08.jpg" width=800>
+
+#### Viajes según cantidad de pasajeros:
+
+Se observa que gran porcentaje de los viajes son con un pasajero, con más de 2.5 millones de viajes (el 83% del total).
+
+Esto puede ser una señal a la hora de decidir qué modelo de auto incluir en nuestra flota, puesto que, quizás, no convenga incorporar vehículos grandes (que suelen ser más costosos).
+
+<img src="EDA_Complementario_09.jpg" width=800>
+
+### ETL y EDA de datasets complementarios
+
+#### API historical-weather-api
+
+Proporciona información sobre las condiciones climáticas, incluyendo temperaturas y precipitaciones, en diferentes momentos, a lo largo de un período de tiempo de un año, con registros diarios.
+
+El DataFrame tiene un total de 3,864 filas y 6 columnas.
+
+Proporciona información sobre las condiciones climáticas, incluyendo temperaturas y precipitaciones, en diferentes momentos, a lo largo de un período de tiempo de un año, con registros diarios.
+
+El DataFrame tiene un total de 3,864 filas y 6 columnas.
+
+#### Patrón de temperaturas en el año:
+
+En el siguiente gráfico de cajas se observa la clara tendencia de temperaturas según las estaciones del año. 
+
+Hay que remarcar que en invierno llegan a registrarse valores extremos de hasta -20°C. Sin embargo, en los meses cálidos la temperatura no sobrepasa los 20°C, cual lo cual se deduce que Nueva York es una ciudad más bien fria.
+
+El frio y la nieve son factores importantes a tener en cuenta en el negocio de los taxis, puesto que con temperaturas tan bajas, las personas tienden a trasladarse en el refugio abrigado de un vehículo.
+
+<img src="EDA_Complementario_10.jpg" width=800>
+
+#### Patrón de precipitaciones:
+
+La mayoría de las precipitaciones ocurren en los meses de verano.
+
+Los días de lluvia la gente tiende a usar mayormente vehículos (para no mojarse), por ende puede ser una información útil para el negocio de los taxis.
+
+<img src="EDA_Complementario_11.jpg" width=800>
 
 
