@@ -204,3 +204,18 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 ### App / Web interactiva
 - [x] El modelo de machine learnig de disponibiliza a través de una página web, facilitando la interacción con el cliente.
 - [x] Tecnología y librerías utilizadas: Python, FastAPI, Render
+
+### <h3 align=left>**`Definición de identidad visual de marca`** </h3>
+
+### Desarrollo de un logotipo
+
+El desarrollo de un logotipo implica la creación de un símbolo visual o un diseño gráfico que representa la esencia de la marca. El logotipo puede consistir en una combinación de elementos como formas, letras, imágenes o iconos que juntos comunican la identidad y los valores de la empresa. 
+
+Para nuestro proyecto, desarrollamos el logotipo de la empresa consultora (Taxi Green) y el de nuestro grupo de trabajo (LBD) a través de la evaluación de las alternativas que ofrecían plataformas de diseño tales como:
+
+- Tailor Brands | Small Business Set-up Made Easy 
+- Logo Maker | Used By 2.3 Million Startups  
+- Diseña un Logo con Nuestro Creador de Logo Gratis | FreeLogoServices  
+- Crear Logos Gratis - Creador de logos - Free Logo Design
+
+| ![](<Imagenes/Matriz de responsabilidades.jpg>)
