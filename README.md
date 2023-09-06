@@ -125,7 +125,8 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 
 ### **`Alcance (Desarrollar)`**
 
-> [!NOTE]\
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
 > Debe tener:
 >  * Análisis descriptivo del movimiento de los taxis en NYC (patrones por semana, franja horaria). Si hay datos, incluir también: micros, uber, vehículos particulares, tipos de motor (combustible, eléctrico, híbrido).
 >
