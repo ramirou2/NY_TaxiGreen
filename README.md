@@ -716,7 +716,7 @@ Tipo de combustible del vehículo (Sedan, Hatchback, SUV, Pick Up).
 
 Fabricante del vehículo.
 
-*Método_pago:*
+*- Método_pago:*
 
 Método de pago utilizado para abonar el viaje.
 
