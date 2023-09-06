@@ -263,4 +263,4 @@ También se encuentran Ford, la marca Norteamericana por excelencia y Toyota, ta
 
 Se puede concluir que el mercado estadounidense se inclina hacia marcas de renombre y reconocidas por su mecánica potente, confiable y duradera.
 <p align= Center>
-<img src="Imagenes/EDA Imagen 01.jpg" width=600> </p>
+<img src="Imagenes/EDA Imagen 01.jpg" width=800> </p>
