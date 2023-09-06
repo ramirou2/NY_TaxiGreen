@@ -328,13 +328,15 @@ Evolución de Emisiones de CO2 a los largo de los años
 
 Claramente, la tendencia a fabricar vehículos con cada vez menos emisiones de CO2 es clara y se intensifica a partir del 2004.
 
-(imagen eda 07)
+<p align= Center>
+<img src="Imagenes/EDA Imagen 07.jpg" width=800> </p>
 
 Evolución de Emisiones de CO2 a los largo de los años
 
 Claramente, la tendencia a fabricar vehículos con cada vez menos emisiones de CO2 es clara y se intensifica a partir del 2004.
 
-(imagen eda 08)
+<p align= Center>
+<img src="Imagenes/EDA Imagen 08.jpg" width=800> </p>
 
 Emisión por tipos de combustible
 
@@ -342,7 +344,8 @@ Como es obvio, los vehículos eléctricos son los que menos emiten.
 
 En cuanto a los vehículos de gasolina, no hay una gran diferencia entre los que usan grado premiun o grado medio. Sí es notable que los que usan gasolina regular son los que más CO2 emiten.
 
-(imagen eda 09)
+<p align= Center>
+<img src="Imagenes/EDA Imagen 09.jpg" width=800> </p>
 
 Emisiones promedio por Clase de vehículo (2022)
 
@@ -352,7 +355,8 @@ En el otro extremo del gráfico, se encuentran los autos deportivos (two seats) 
 
 Teniendo en cuenta que la flota de vehículos transitará por calles de la ciudad, concideramos que las Pick Ups y las SUVs son vehículos de gran porte y muy incómodos para estos fines.  
 
-(imagen eda 10)
+<p align= Center>
+<img src="Imagenes/EDA Imagen 10.jpg" width=800> </p>
 
 Cabe destacar que este dataset cuenta con información sobre vehículos a gasolina que no serán tenidos en cuenta para conformar la flota de vehículos de la nueva unidad de negocios.
 
@@ -383,7 +387,8 @@ Como era de esperar, los vehículos eléctricos son los que menos emiten, con va
 
 Hay que destacar que es notable la diferencia entre B/X (78 g/km) y B/Z (112 g/km). Quiere decir que el hibrido eléctrico/gasolina regular emite un 30% menos CO2 que el híbrido eléctrico/gasolina premium.
 
-(imagen eda 11)
+<p align= Center>
+<img src="Imagenes/EDA Imagen 11.jpg" width=800> </p>
 
 Emisiones por clase de vehículo:
 
@@ -391,7 +396,8 @@ El objetivo que nos habíamos puesto era 300 g/m (320 g/km) (en base al archivo 
 
 En este caso, sólo analizamos eléctrico e híbridos. Nuestra flota va a estar compuesta de eléctricos e híbrido. Por ende, tenemos que revisar el objetivo planteado originalmente.
 
-(imagen eda 12)
+<p align= Center>
+<img src="Imagenes/EDA Imagen 12.jpg" width=800> </p>
 
 Conclusión en cuanto a emisiones de CO2:
 
@@ -405,7 +411,8 @@ En cuanto a autonomía:
 
 Autonomía por tipo de vehículo:
 
-(imagen eda 13)
+<p align= Center>
+<img src="Imagenes/EDA Imagen 13.jpg" width=800> </p>
 
 En el dataset utilizado:
 
@@ -425,7 +432,8 @@ En cuanto a autonomía, podemos ver que los Full-size tienen un promedio (300km)
 
 También es notorio que el promedio de autonomía en los mid-size (460 km) es perfecto para nuestro objetivo.
 
-(imagen eda 14)
+<p align= Center>
+<img src="Imagenes/EDA Imagen 14.jpg" width=800> </p>
 
 Conclusión en cuanto a autonomía:
 
