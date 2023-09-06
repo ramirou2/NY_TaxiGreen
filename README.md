@@ -218,5 +218,5 @@ Para nuestro proyecto, desarrollamos el logotipo de la empresa consultora (Taxi 
 - Diseña un Logo con Nuestro Creador de Logo Gratis | FreeLogoServices  
 - Crear Logos Gratis - Creador de logos - Free Logo Design
 
-| ![](<Imagenes/Opcion Logo 01.jpg> width=100) | ![](<Imagenes/Opcion Logo 02.jpg>) | ![](<Imagenes/Opcion Logo 03.jpg>) | ![](<Imagenes/Opcion Logo 04.jpg>)| ![](<Imagenes/Opcion Logo 05.jpg>) |
+| <img src="Imagenes/Opcion Logo 01.jpg"> width=100) | ![](<Imagenes/Opcion Logo 02.jpg>) | ![](<Imagenes/Opcion Logo 03.jpg>) | ![](<Imagenes/Opcion Logo 04.jpg>)| ![](<Imagenes/Opcion Logo 05.jpg>) |
 
