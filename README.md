@@ -173,7 +173,7 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 ### <h3 align=left>**`Propuesta de trabajo`** </h3>
 ***
 
-# Recopilación y limpieza
+### Recopilación y limpieza
 - [x] Se utilizan los archivos .csv provistos por el cliente. También se estudian los datasets complementarios facilitados por el cliente, así como también información extra recopilada por el equipo.
 - [x] Los datasets provienen tanto de archivos .csv como de APIs. Estos últimos son extraídos con técnicas de web scrapping. 
 - [x] Los dataset considerados necesarios para el desarrollo del producto final del proyecto, se limpian, ordenan y normalizan.
@@ -181,26 +181,26 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 
 `Tecnología y librerías utilizadas: Python, Pandas, Numpy, os`
 
-# Creación de un diccionario y diagrama DER
+### Creación de un diccionario y diagrama DER
 - [x] Los datasets son procesados y analizados para generar un diccionario de las variables de interés. 
 - [x] Se utiliza esta información para establecer un diagrama de entidad - relación que facilite su posterior análisis
 
-# Disponibilización de la información
+### Disponibilización de la información
 - [x] Se crea un DataWarehouse utilizando las herramientas Cloud de Google.
 
 `Tecnología y librerías utilizadas: MySQL, Google Cloud`
 
-# Análisis de la información y Dashboard interactivo
+### Análisis de la información y Dashboard interactivo
 - [x] Se diseña un dashboard con información relevante para el negocio teniendo en cuanta los KPIs definidos para tal fin.
 
 `Tecnología y librerías utilizadas: Power BI / Streamlit /Locker studio?`
 
-# Modelo de Machine Learning
+### Modelo de Machine Learning
 - [x] Modelo predictivo ML: evolución de la calidad del aire en función del uso de los medios de transporte (distintos escenarios considerando distinta composición de la flota en cuanto a modelos de auto)
 - [x] Modelo predictivo ML: modelar la evolución de la contaminación sonora en función del uso de los medios de transporte (distintos escenarios considerando distinta composición de la flota en cuanto a modelos de auto)
 
 `Tecnología y librerías utilizadas: Python, Pandas, Numpy, Seaborn, Matplotlib, sklearn`
 
-# App / Web interactiva
+### App / Web interactiva
 - [x] El modelo de machine learnig de disponibiliza a través de una página web, facilitando la interacción con el cliente.
 - [x] Tecnología y librerías utilizadas: Python, FastAPI, Render
