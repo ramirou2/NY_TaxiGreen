@@ -225,4 +225,4 @@ Para nuestro proyecto, desarrollamos el logotipo de la empresa consultora (Taxi 
 
 ### Grupalmente se definió el diseño final del grupo de trabajo:
 
-<img src="Imagenes/Logo Final.jpg" width=200> <img src="Imagenes/Logo Corporativo.jpg" width=200>
+<img src="Imagenes/Logo Final.jpg" width=400> <img src="Imagenes/Logo Corporativo.jpg" width=200>
