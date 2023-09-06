@@ -177,6 +177,6 @@ Recopilación y limpieza
 - [x] Los dataset considerados necesarios para el desarrollo del producto final del proyecto, se limpian, ordenan y normalizan.
 - [x] Además, se realiza un análisis exploratorio de datos con el objetivo de detectar insights de interés para el cliente.
 
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+The background color is `#ffffff Tecnología y librerías utilizadas: Python, Pandas, Numpy, os,  `#000000` for dark mode.
 
 
