@@ -262,5 +262,5 @@ En el siguiente gráfico se puede apreciar que en el Top5 se encuentran 3 marcas
 También se encuentran Ford, la marca Norteamericana por excelencia y Toyota, también muy reconocida a nivel mundial y sinónimo de confiabilidad.
 
 Se puede concluir que el mercado estadounidense se inclina hacia marcas de renombre y reconocidas por su mecánica potente, confiable y duradera.
-
-<img align=center src="Imagenes/EDA Imagen 01.jpg" width=600>
+<p align= Center>
+<img src="Imagenes/EDA Imagen 01.jpg" width=600> </p>
