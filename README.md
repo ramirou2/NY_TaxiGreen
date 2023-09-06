@@ -580,3 +580,186 @@ Los días de lluvia la gente tiende a usar mayormente vehículos (para no mojars
 <p align= Center>
 <img src="Imagenes/EDA_Complementario_11.jpg" width=800> </p>
 
+## Data Engineering :wrench: 
+**
+
+Introducción a los Servicios en la Nube: una perspectiva clarificadora
+Los "cloud services" o servicios en la nube representan una innovadora modalidad de recursos informáticos y aplicaciones, dispuestos a través de la red global de internet. En contraposición a la tradicional albergada en servidores locales o en infraestructuras físicas, estos servicios operan en entornos de servidores remotos, que pueden abarcar múltiples localizaciones geográficas. En esta dinámica, los proveedores de servicios en la nube brindan a los usuarios una variada gama de capacidades, que incluyen capacidad de almacenamiento, potencia de procesamiento, bases de datos, programas y herramientas, todo accesible bajo demanda.
+
+Los servicios en la nube se pueden dividir en tres categorías fundamentales:
+
+Software as a Service (SaaS): Bajo este modelo, los usuarios acceden a aplicaciones y software directamente a través de internet. La instalación y mantenimiento de software en dispositivos propios se torna innecesaria, ya que el procesamiento y almacenamiento se ejecutan en la nube. Ejemplos de SaaS engloban servicios como correo electrónico en línea, suites de productividad y programas de gestión empresarial.
+
+Platform as a Service (PaaS): En esta categoría, los proveedores facilitan plataformas y herramientas para que desarrolladores puedan crear, desplegar y administrar aplicaciones en la nube. Los desarrolladores se focalizan en la creación de aplicaciones sin la carga de preocuparse por la infraestructura subyacente. Entornos de desarrollo web y bases de datos en la nube son ejemplos tangibles de PaaS.
+
+Infrastructure as a Service (IaaS): En este modelo, se proveen recursos de infraestructura virtualizados, incluyendo servidores, almacenamiento y redes, a través de internet. Los usuarios conservan mayor control sobre la configuración y manejo de estos recursos, similar a la gestión de servidores físicos, pero sin la necesidad de contar con hardware físico. IaaS abarca máquinas virtuales y servicios de almacenamiento en la nube, entre otros.
+
+ 
+
+Exploración de plataformas
+En las primeras etapas, se tomó la decisión de analizar detenidamente tres plataformas diferentes para la implementación de nuestro Data Warehouse (DW), considerando sus características y ventajas en consonancia con nuestros objetivos.
+
+ 
+
+
+Planet Scale: Introducida como una base de datos 'serverless', Planet Scale se integra armónicamente con MySQL, ofreciendo no solo escalabilidad y rendimiento, sino también un alto nivel de confiabilidad. Esta plataforma no compromete la experiencia del desarrollador. Al adoptar Planet Scale, accedemos a capacidades de fragmentación horizontal, cambios de esquema sin bloqueos y potentes funciones de base de datos, sin incurrir en las dificultades de su implementación.
+
+Enlace a Planet Scale 
+
+ 
+
+
+Render: Render se distingue por su asombrosa facilidad de uso y su sorprendente capacidad de empoderamiento, generando un entorno altamente escalable. Desde la administración de una simple página HTML hasta la gestión de aplicaciones complejas con múltiples microservicios, Render presenta una solución integral y versátil.
+
+Enlace a Render
+
+ 
+
+
+Google Cloud Platform (GCP): GCP emerge como una suite integral de servicios en la nube, diseñada y proporcionada por Google. Esta plataforma abarca desde servicios de infraestructura hasta soluciones de nivel superior. Dentro de este amplio abanico, Platform as a Service (PaaS) ocupa una posición destacada. La selección de GCP para nuestro proyecto se fundamenta en su capacidad para unificar diversas herramientas bajo un mismo paraguas, evitando la incompatibilidad de software, hardware y otros componentes. Esta cohesión contribuye significativamente a la eficiencia y coherencia en la operación del DW.
+
+Enlace a Google Cloud Platform
+
+Uso de Servicios Cloud (GCP)
+Los servicios en la nube ofrecen una solución escalable y flexible para alojar aplicaciones, almacenar y gestionar datos, y realizar análisis en tiempo real. 
+
+En este proyecto hemos utilizado un servicio PaaS, Google Cloud Platform (GCP), una suite completa de servicios en la nube proporcionados por Google.
+
+La elección final se respalda en su conjunto de servicios en la nube que engloban desde computación y almacenamiento hasta análisis y aprendizaje automático. Al aprovechar las tecnologías que GCP pone a nuestra disposición, evitamos la complejidad de sincronizar múltiples herramientas de distintos proveedores. En muchos casos, estas incompatibilidades pueden traducirse en barreras software-hardware que obstaculizan la eficiencia y la cohesión. Entre las herramientas de GCP que serán de utilidad en nuestro proyecto, destacamos:
+
+Almacenamiento y bases de datos:
+
+Cloud Storage: Proporciona un almacenamiento en la nube escalable y duradero para objetos y archivos.
+
+Cloud SQL: Ofrece una base de datos SQL administrada.
+
+Análisis y Big Data:
+
+BigQuery: Brinda un almacén de datos y análisis en tiempo real a gran escala.
+
+Dataflow: Facilita el procesamiento de datos en tiempo real y por lotes.
+
+Dataproc: Proporciona un servicio administrado de Apache Spark y Hadoop.
+
+Analytics y Machine Learning:
+
+Diversas herramientas para análisis y aprendizaje automático, tales como Tensor Flow, AI Platform, entre otros.
+
+Servicios de identidad y seguridad:
+
+Identity and Access Management (IAM): Ofrece control de acceso y gestión de identidades.
+
+Otros servicios:
+
+Cloud Functions: Posibilita la ejecución de código en respuesta a eventos.
+
+Cloud Vision, Translation, Speech, Natural Language, Video AI: Proporciona servicios de inteligencia artificial para análisis de imágenes, traducción, reconocimiento de voz, procesamiento de lenguaje natural y análisis de video.
+
+La elección estratégica de GCP como plataforma principal subraya nuestro compromiso con la eficiencia, la coherencia y la compatibilidad en el diseño y operación de nuestro Data Warehouse.
+
+Arquitectura:
+
+ 
+
+Data Warehouse.
+Creación del Data Warehouse 
+
+ 
+
+Carga inicial:
+
+ 
+
+Carga Incremental: 
+La automatización del Data Warehouse se logró mediante la programación de procesos ETL (Extracción, Transformación y Carga) utilizando Google Dataflow. Esto permitió la recopilación periódica de datos, su limpieza, transformación y carga en las tablas correspondientes.
+
+Para garantizar la eficiencia en la carga de datos, implementamos un enfoque de carga incremental. Solo se cargaron los datos nuevos o modificados desde la última ejecución del proceso ETL, lo que redujo el tiempo de procesamiento y aseguró la consistencia de los datos.
+
+Enlace a video - PENDIENTE
+
+ 
+
+Diagrama de Entidad - Relación (DER)
+En nuestro Data Warehouse, se crearon dos tablas de hecho y cinco tablas de dimensiones. Las tablas de hecho contienen medidas cuantitativas de interés, mientras que las tablas de dimensiones almacenan atributos descriptivos que permiten contextualizar y analizar las medidas.
+
+
+ 
+
+Tablas de Hecho:
+
+Viajes: 
+
+Proporciona información sobre viajes que realiza la compañía en la ciudad de Nueva York, incluyendo detalles sobre las ubicaciones de inicio y fin y tarifas.
+
+Autos_flota: 
+
+Contiene información sobre los vehículos que son propiedad de la empresa.
+
+Clima: 
+
+Proporciona información sobre las condiciones climáticas, incluyendo temperaturas y precipitaciones, en diferentes momentos, a lo largo de un período de tiempo de un año, con registros diarios.
+
+Estos datos se recogen de una API con una frecuencia mensual.
+
+Tablas Dimensión:
+
+Autos:  
+
+Contiene datos detallados sobre la economía de combustible y las especificaciones técnicas de una variedad de vehículos, incluyendo información sobre consumo de combustible, emisiones de CO2 y ruido que produce el motor.
+
+Taxi_zones: 
+
+Proporciona información sobre las zonas de taxis en diferentes distritos, incluyendo detalles sobre las ubicaciones, distritos, nombres de zonas y zonas de servicio asociadas..
+
+Tipo_combustible: 
+
+Tipo de combustible del vehículo.
+
+Clase_vehiculo: 
+
+Tipo de combustible del vehículo (Sedan, Hatchback, SUV, Pick Up).
+
+Marca_auto: 
+
+Fabricante del vehículo.
+
+Método_pago: 
+
+Método de pago utilizado para abonar el viaje.
+
+Analítica de datos.
+Contexto
+Según el artíuclo publicado siempre auto (link en Fuente), la ciudad de Nueva York ha anunciado que requerirá que las flotas de vehículos compartidos sean totalmente eléctricos para 2030.
+
+Este es el plan de implementación de la iniciativa Green Rides: 
+
+A partir de 2024, Nueva York requerirá que el 5 % de todos los viajes de alquile se envíen a vehículos eléctricos 
+
+En 2025 aumentará al 15%.
+
+En 2026 al 25%. 
+
+En 2027 al 45%.
+
+En 2028 al 65%.
+
+En 2029 al 85%.
+
+Y, finalmente, en 2030 aumentará al 100%.
+
+Uber y Lyft, que en conjunto conforman 78,000 vehículos de viaje compartido en la ciudad de Nueva York, también se comprometieron a hacer la transición a los vehículos eléctricos para 2030.
+
+Fuente:
+
+Nueva York, la primera ciudad del mundo en exigir vehículos eléctricos compartidos para 2030 - Siempre Auto 
+
+En cuanto a los taxis, también tendrán que apegarse a esta normativa.
+
+Actualmente, en la ciudad de Nueva York hay aproximadamente 13.000 taxis, en donde se estima que el 80% son vehículos híbridos Nissan NV200.
+
+Situación actual de la empresa Taxi Green.
+La empresa Taxi Green no cuenta actualmente con una flota de autos de uso compartido o taxi.
+
+A los fines de estimar la evolución de los indicadores principales del negocio, se evalúan los viajes realizados en la ciudad de Nueva York por la flota existente de vehículos. Con este objetivo, se desarrolla un tablero de control. 
+
+Finalmente, se desarrolla un modelo de machine learning con la finalidad de proponer las mejores alternativas de flotas compuestas por distintos modelos de vehículos, optimizando los KPIs.
