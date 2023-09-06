@@ -171,7 +171,10 @@ Se proponen los siguientes KPIs con base de medición trimestral:
 ### <h3 align=left>**`Propuesta de trabajo`** </h3>
 
 Recopilación y limpieza
-
+- [x] Se utilizan los archivos .csv provistos por el cliente. También se estudian los datasets complementarios facilitados por el cliente, así como también información extra recopilada por el equipo.
+- [x] Los datasets provienen tanto de archivos .csv como de APIs. Estos últimos son extraídos con técnicas de web scrapping. 
+- [x] Los dataset considerados necesarios para el desarrollo del producto final del proyecto, se limpian, ordenan y normalizan.
+- [x] Además, se realiza un análisis exploratorio de datos con el objetivo de detectar insights de interés para el cliente.
 
 
 
