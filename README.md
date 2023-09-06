@@ -680,15 +680,15 @@ En nuestro Data Warehouse, se crearon dos tablas de hecho y cinco tablas de dime
 
 ## Tablas de Hecho:
 
-*- Viajes: *
+*- Viajes:*
 
 Proporciona información sobre viajes que realiza la compañía en la ciudad de Nueva York, incluyendo detalles sobre las ubicaciones de inicio y fin y tarifas.
 
-*- Autos_flota: *
+*- Autos_flota:*
 
 Contiene información sobre los vehículos que son propiedad de la empresa.
 
-*- Clima: * 
+*- Clima:* 
 
 Proporciona información sobre las condiciones climáticas, incluyendo temperaturas y precipitaciones, en diferentes momentos, a lo largo de un período de tiempo de un año, con registros diarios.
 
@@ -696,61 +696,51 @@ Estos datos se recogen de una API con una frecuencia mensual.
 
 ## Tablas Dimensión:
 
-Autos:  
-
+*-Autos:*  
 Contiene datos detallados sobre la economía de combustible y las especificaciones técnicas de una variedad de vehículos, incluyendo información sobre consumo de combustible, emisiones de CO2 y ruido que produce el motor.
 
-Taxi_zones: 
-
+*-Taxi_zones:*
 Proporciona información sobre las zonas de taxis en diferentes distritos, incluyendo detalles sobre las ubicaciones, distritos, nombres de zonas y zonas de servicio asociadas..
 
-Tipo_combustible: 
-
+*-Tipo_combustible:*
 Tipo de combustible del vehículo.
 
-Clase_vehiculo: 
-
+*-Clase_vehiculo:*
 Tipo de combustible del vehículo (Sedan, Hatchback, SUV, Pick Up).
 
-Marca_auto: 
-
+*-Marca_auto:*
 Fabricante del vehículo.
 
-Método_pago: 
-
+/*Método_pago:*
 Método de pago utilizado para abonar el viaje.
 
-Analítica de datos.
-Contexto
+### Analítica de datos.
+
+## Contexto
 Según el artíuclo publicado siempre auto (link en Fuente), la ciudad de Nueva York ha anunciado que requerirá que las flotas de vehículos compartidos sean totalmente eléctricos para 2030.
 
 Este es el plan de implementación de la iniciativa Green Rides: 
 
-A partir de 2024, Nueva York requerirá que el 5 % de todos los viajes de alquile se envíen a vehículos eléctricos 
+- A partir de 2024, Nueva York requerirá que el 5 % de todos los viajes de alquile se envíen a vehículos eléctricos 
+- En 2025 aumentará al 15%.
+- En 2026 al 25%. 
+- En 2027 al 45%.
+- En 2028 al 65%.
+- En 2029 al 85%.
+- Y, finalmente, en 2030 aumentará al 100%.
 
-En 2025 aumentará al 15%.
+[Uber y Lyft](https://siempreauto.com/uber-y-lyft-deberan-ser-100-electricas-en-nueva-york-para-2030/), que en conjunto conforman 78,000 vehículos de viaje compartido en la ciudad de Nueva York, también se comprometieron a hacer la transición a los vehículos eléctricos para 2030.
 
-En 2026 al 25%. 
-
-En 2027 al 45%.
-
-En 2028 al 65%.
-
-En 2029 al 85%.
-
-Y, finalmente, en 2030 aumentará al 100%.
-
-Uber y Lyft, que en conjunto conforman 78,000 vehículos de viaje compartido en la ciudad de Nueva York, también se comprometieron a hacer la transición a los vehículos eléctricos para 2030.
-
-Fuente:
-
-Nueva York, la primera ciudad del mundo en exigir vehículos eléctricos compartidos para 2030 - Siempre Auto 
-
+> EDA Detalle
+> Fuente:
+>
+> [Nueva York, la primera ciudad del mundo en exigir vehículos eléctricos compartidos para 2030 - Siempre Auto 
+](https://siempreauto.com/nueva-york-la-primera-ciudad-del-mundo-en-exigir-vehiculos-electricos-compartidos-para-2030/)
 En cuanto a los taxis, también tendrán que apegarse a esta normativa.
 
 Actualmente, en la ciudad de Nueva York hay aproximadamente 13.000 taxis, en donde se estima que el 80% son vehículos híbridos Nissan NV200.
 
-Situación actual de la empresa Taxi Green.
+## Situación actual de la empresa Taxi Green.
 La empresa Taxi Green no cuenta actualmente con una flota de autos de uso compartido o taxi.
 
 A los fines de estimar la evolución de los indicadores principales del negocio, se evalúan los viajes realizados en la ciudad de Nueva York por la flota existente de vehículos. Con este objetivo, se desarrolla un tablero de control. 
