@@ -465,7 +465,8 @@ Además, se observa que en posiciónat idle (regulando - velocidad 0) los valore
 
 El rango de velocidad que nos interesará en el estudio es at idle y 55 mph (80 km/h). Esto es porque, en general, en las ciudades grandes, raramente se superen los 80 km/h (velocidad máxima en las circunvalaciones). 
 
-<img src="EDA_Complementario_02.jpg" width=800>
+<p align= Center>
+<img src="Imagenes/EDA_Complementario_02.jpg" width=800> </p>
 
 <br> <b>Ruido por año</b>
 
@@ -473,7 +474,8 @@ En este gráfico, podemos ver la evolución promedio del ruido en dB de autos.
 
 Algo a destacar, que en el rango de interés (at idle y 55mph), el ruido a disminuido en el rango temporal que se tiene.
 
-<img src="EDA_Complementario_03.jpg" width=800>
+<p align= Center>
+<img src="Imagenes/EDA_Complementario_03.jpg" width=800> </p>
 
 ## ETL y EDA de datasets relacionados con el transporte e infraestructura
 
@@ -485,7 +487,8 @@ El conjunto de datos contiene un total de 70406 registros y 65 columnas. Las col
 
 Podemos notar que hubo un incremento de la cantidad de estaciones en estos últimos años, con un incremento importante en el año 2021.
 
-<img src="EDA_Complementario_04.jpg" width=800>
+<p align= Center>
+<img src="Imagenes/EDA_Complementario_04.jpg" width=800> </p>
 
 ### taxi+_zone_lookup.csv
 
@@ -508,7 +511,8 @@ Algunos datos respecto a la calidad de los datos:
 
 Se observa un promedio de viajes de al rededor de 2 millas (3,2 km) con máximos de hasta 7 millas (11,2 km).
 
-<img src="EDA_Complementario_05.jpg" width=800>
+<p align= Center>
+<img src="Imagenes/EDA_Complementario_05.jpg" width=800> </p>
 
 #### Costo de los viajes:
 
@@ -516,7 +520,8 @@ Se observa un promedio de 15 dólares por viaje sin outliers con máximos de has
 
 Hay algunos valores menores a 0 que habría reveer, posiblemente sean equivocados.
 
-<img src="EDA_Complementario_06.jpg" width=800>
+<p align= Center>
+<img src="Imagenes/EDA_Complementario_06.jpg" width=800> </p>
 
 #### Modo de pago:
 
@@ -524,13 +529,15 @@ Para el modo de pago se debe tener en cuenta que: 0= Credit card 1= Cash 2= No c
 
 Se observa que la mayoría de los pagos son en efectivo.
 
-<img src="EDA_Complementario_07.jpg" width=800>
+<p align= Center>
+<img src="Imagenes/EDA_Complementario_07.jpg" width=800> </p>
 
 #### Viajes por zonas:
 
 Se oberva que casi la totalidad de los viajes incluye el traslado entre distintas "*Taxi Zone*"
 
-<img src="EDA_Complementario_08.jpg" width=800>
+<p align= Center>
+<img src="Imagenes/EDA_Complementario_08.jpg" width=800> </p>
 
 #### Viajes según cantidad de pasajeros:
 
@@ -538,7 +545,8 @@ Se observa que gran porcentaje de los viajes son con un pasajero, con más de 2.
 
 Esto puede ser una señal a la hora de decidir qué modelo de auto incluir en nuestra flota, puesto que, quizás, no convenga incorporar vehículos grandes (que suelen ser más costosos).
 
-<img src="EDA_Complementario_09.jpg" width=800>
+<p align= Center>
+<img src="Imagenes/EDA_Complementario_09.jpg" width=800> </p>
 
 ### ETL y EDA de datasets complementarios
 
@@ -560,7 +568,8 @@ Hay que remarcar que en invierno llegan a registrarse valores extremos de hasta 
 
 El frio y la nieve son factores importantes a tener en cuenta en el negocio de los taxis, puesto que con temperaturas tan bajas, las personas tienden a trasladarse en el refugio abrigado de un vehículo.
 
-<img src="EDA_Complementario_10.jpg" width=800>
+<p align= Center>
+<img src="Imagenes/EDA_Complementario_10.jpg" width=800> </p>
 
 #### Patrón de precipitaciones:
 
@@ -568,6 +577,6 @@ La mayoría de las precipitaciones ocurren en los meses de verano.
 
 Los días de lluvia la gente tiende a usar mayormente vehículos (para no mojarse), por ende puede ser una información útil para el negocio de los taxis.
 
-<img src="EDA_Complementario_11.jpg" width=800>
-
+<p align= Center>
+<img src="Imagenes/EDA_Complementario_11.jpg" width=800> </p>
 
