@@ -652,15 +652,15 @@ La elección estratégica de GCP como plataforma principal subraya nuestro compr
 ## Arquitectura:
 
 <p align= left>
-<img src="Imagenes/Arquitectura.jpg" width=800></p>
+<img src="Imagenes/Arquitectura.jpg" width=600></p>
  
 ## Data Warehouse.
 Creación del Data Warehouse 
 <p align= left>
-<img src="Imagenes/datawarehouse.jpg" width=800></p>
+<img src="Imagenes/datawarehouse.jpg" width=600></p>
  
 <p align= left>
-<img src="Imagenes/carga_inicial.jpg" width=800></p>
+<img src="Imagenes/carga_inicial.jpg" width=600></p>
  
 
 Carga Incremental: 
@@ -675,7 +675,7 @@ Para garantizar la eficiencia en la carga de datos, implementamos un enfoque de 
 En nuestro Data Warehouse, se crearon dos tablas de hecho y cinco tablas de dimensiones. Las tablas de hecho contienen medidas cuantitativas de interés, mientras que las tablas de dimensiones almacenan atributos descriptivos que permiten contextualizar y analizar las medidas.
 
 <p align= left>
-<img src="Imagenes/DER_Final.jpg" width=800></p>
+<img src="Imagenes/DER_Final.jpg" width=600></p>
  
 
 ## Tablas de Hecho:
