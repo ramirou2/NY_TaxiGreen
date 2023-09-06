@@ -228,5 +228,32 @@ Para nuestro proyecto, desarrollamos el logotipo de la empresa consultora (Taxi 
 <p align= Center>Logo Final Empresa <br>
 <img src="Imagenes/Logo Final.jpg" width=450> </p>
 
-Logo Corporativo
-<img src="Imagenes/Logo Corporativo.jpg" width=200>
+<p align= Center>Logo Corporativo <br>
+<img src="Imagenes/Logo Corporativo.jpg" width=200> </p>
+
+### Trabajo realizado en ETL
+
+## Recopilación y limpieza
+
+En la carpeta Datasets se encuentran los archivos .csv con la información provista por el cliente que contienen los datos a ser procesados.
+
+En general, se realizó un proceso de limpieza y transformación de todos los dataset que incluyó:
+
+- Eliminar columnas sin utilidad.
+
+- Reemplazar o eliminar valores nulos, duplicados, faltantes y NA.
+
+- Normalizar datos.
+
+Seguidamente, se llevó a cabo un análisis exploratorio de los datos con el objetivo de detactar insights que puedan aportar información valiosa en las posteriores etapas del proyecto.
+
+## ETL y EDA de datasets relacionados con la emisión de CO2
+
+# Alternative Fuel Vehicles US.csv
+
+Contiene información sobre vehículos de combustible alternativo en Estados Unidos. Es una recopilación sobre vehículos de combustible alternativo en Estados Unidos, incluyendo sus características técnicas y de rendimiento.
+
+Consta de 882 filas y 22 columnas. Cada fila representa un vehículo específico, mientras que las columnas contienen información y características técnicas relacionadas con los vehículos.
+
+> EDA Detalle
+
