@@ -912,3 +912,5 @@ __Stack tecnológico:__
   tanto de la empresa como de los conductores.
 - Capacitación al personal en las herramientas desarrolladas para el uso eficiente del producto ofrecido.
 - Acompañamiento durante todo el proceso de incorporación y adaptación de las nuevas tecnologías para lograr el retorno efectivo de la inversión inicial.
+- Obtención de una herramienta que basada en los modelos de Machine Learning le permitirá predecir los resultados optimos para gestionar la flota que se decida
+  obtener.
