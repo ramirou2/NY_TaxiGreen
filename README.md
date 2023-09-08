@@ -753,3 +753,82 @@ La empresa Taxi Green no cuenta actualmente con una flota de autos de uso compar
 A los fines de estimar la evolución de los indicadores principales del negocio, se evalúan los viajes realizados en la ciudad de Nueva York por la flota existente de vehículos. Con este objetivo, se desarrolla un tablero de control. 
 
 Finalmente, se desarrolla un modelo de machine learning con la finalidad de proponer las mejores alternativas de flotas compuestas por distintos modelos de vehículos, optimizando los KPIs.
+
+## Dashboard
+
+### Tecnologías utilizadas
+
+El desarrollo del panel de control se materializó a través de Looker, una aplicación de visualización integrada al entorno de Google Cloud Platform.
+
+#### 1- Flota Propuesta
+
+El objetivo de esta pantalla es evaluar la flota de vehículos en vistas a los indicadores clave del negocio.
+
+A modo de ejemplo, utilizamos una de las combinaciones propuestas por el modelo de optimización de parámetros que se explica más adelante. La idea es que, una vez que el negocio esté en marcha, estos datos se reemplacen por los reales.
+
+<p align= center>
+<img src="Imagenes/Flota Propuesta.jpg" width=600></p>
+
+En la parte superior, se puede observar el detalle de cada vehículo.
+
+En el ejemplo, la flota se compone de 300 vehículos, de los cuales 240 son eléctricos Kia Niro y 60 son híbridos distribuidos entre Hyundai Sonata y Chevrolet Malibu y suponen una inversión de 11 millones de dólares.
+
+Abajo se evalúan los KPIs:
+
+Emisiones de CO2.
+
+Habíamos planteado que en promedio la emisión por diseño sea menor a 20 g/km. El promedio está un poco por encima del target, así lo indica la etiqueta roja. 
+
+Composición de la flota
+
+En el siguiente gráfico se visualiza que el 80% de lo vehículos tienen motor híbrido, cuando nuestro objetivo era lograr un mínimo de 60%. Se cumple el objetivo, por eso la etiqueta verde.
+
+Por otro lado, es interesante remarcar que el gobierno de Nueva York ya puso en marcha un plan para migrar el 100% de la flota de taxis y autos compartidos a eléctricos para el 2030. Con esto ya estaría muy cerca de cumplirse, adicionando que seguramente también haya, en un futuro incentivos para comprar autos eléctricos y premios para la empresas que cumplan los objetivos.
+
+Ruido
+
+Autonomía
+
+De la misma forma se evalúa el ruido promedio y la autonomía de los vehículos. 
+
+En este último caso,  proponemos el target de 300 km porque un taxi recorre, en promedio, 290 km por día. Por lo cual, de esta forma, el chofer podría cumplir toda su jornada laboral con un solo tanque.
+
+#### 2- Emisiones de CO2
+
+<p align= center>
+<img src="Imagenes/Emisiones de CO2.jpg" width=600></p>
+
+Podemos encontrar:
+
+•Un filtro que permite seleccionar mes-año para ver datos particulares de algún período de interés.
+•La cantidad de viajes realizados,
+•Las emisiones totales y
+•Las emisiones en g / km promedio durante el período seleccionado
+
+En el gráfico de columnas se puede ver cómo evolucionan las emisiones de CO2/km mes a mes.
+
+En promedio, las emisiones de CO2 /km están muy arriba de target que hemos propuesto. Por ende, el objetivo de 20 g/km es muy desafiante. Remarcamos aquí que los casi 29,8 g/km, si bien no cumple con el objetivo propuesto, es una mejora considerable de la situación actual.
+
+#### 3 - Análisis económico
+
+Esta imagen tiene como misión presentar información para el análisis de aspecto económico del negocio que, si bien no fue planteado como KPI en el inicio, siempre es una variable importante a la hora de definir la concreción o no de un proyecto.
+
+<p align= center>
+<img src="Imagenes/Analisis Economico.jpg" width=600></p>
+
+En esta imagen podemos ver:
+
+•La cantidad de viajes realizados
+•Los ingresos totales
+•Y el promedio de los ingresos por viaje
+
+Abajo, en el gráfico combinado, las columnas representan la facturación mensual y la línea verde la facturación acumulada.
+
+La línea horizontal blanca representa la inversión inicial de 11 millones que mencioné al principio y el objetivo de su presencia es visualizar cuándo se recupera la inversión. En este caso, tardaría 8 meses.
+
+Acá es necesario hacer una aclaración. Estos datos son de la base de datos general de taxis, por ende, no podemos pretender hacer estos cálculos con el 100% de los datos ya que esto implicaría tener una cuota de mercado del 100%, un monopolio.
+
+Para resolver esta cuestión, se agregó una métrica que tiene como objetivo evaluar distintos escenarios dependiendo de la penetración de mercado objetivo y esto sirve para poder predecir la facturación y el retorno de la inversión en cada uno de los mismo. En la imagen, se muestra un excenario con el 1% de participación de mercado.
+
+Por otra parte, a la derecha hay un mapa de calor que permite visualizar en qué zonas inician los viajes más rentables.
+
