@@ -858,7 +858,7 @@ El modelo devuelve:
 - Ingresos potenciales
 
 <p align= center>
-<img src="Imagenes/Modelo_01_ML.jpg" width=600></p>
+<img src="Imagenes/Modelo_01_ML.jpg" width=400></p>
 
 __Modelo 2: Modelo Optimización de flota__
 
@@ -885,12 +885,12 @@ El modelo devuelve:
 Un listado de vehículos recomendados.
 
 <p align= center>
-<img src="Imagenes/Modelo_02_ML.jpg" width=600></p>
+<img src="Imagenes/Modelo_02_ML.jpg" width=400></p>
 
 Este modelo también tiene la posibilidad de simular  el consumo de combustible, y el CO2 emitido en 1 año, comparando la flota propuesta vs un flota promedio.
 
 <p align= center>
-<img src="Imagenes/Modelo_03_ML.jpg" width=600></p>
+<img src="Imagenes/Modelo_03_ML.jpg" width=400></p>
 
 ####  Despliegue de los modelos
 En términos de conseguir un despliegue de bajo o nulo costo, luego de analizar diversas alternativas, se seleccionó Streamlit Cloud.
