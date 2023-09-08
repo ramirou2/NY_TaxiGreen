@@ -832,3 +832,74 @@ Para resolver esta cuestión, se agregó una métrica que tiene como objetivo ev
 
 Por otra parte, a la derecha hay un mapa de calor que permite visualizar en qué zonas inician los viajes más rentables.
 
+### Modelos de machine learning
+
+#### Modelo 1: Modelo ML - Clima Descripción General
+
+En este modelo se empleo Machine Learning, puntualmente un modelo de Random Forest, el cual fue entrenado con datos de los viajes de los Yellow Taxis en Manhattan - New York asociado a los datos climáticos correspondientes al momento del viaje.
+
+- Variables climáticas: Temperatura, Nieve, Lluvia
+- Variables temporales: Hora, Día de la semana.
+- Variables de viajes: Cantidad de viajes por hora, Total de km recorridos, Total de dinero recaudado
+
+**Stack tecnológico:**
+
+> Python: Pandas, Numpy, Matplotlib, Seaborn, Scikit Learn, Request, Os.
+
+**Uso**
+
+Se ingresa Día de la semana, Hora, Temperatura, Lluvia y Nieve.
+
+El modelo devuelve: 
+
+- Cantidad de viajes
+- Cantidad de taxis necesarios
+- Km recorridos
+- Ingresos potenciales
+
+<p align= center>
+<img src="Imagenes/Modelo_01_ML.jpg" width=600></p>
+
+__Modelo 2: Modelo Optimización de flota__
+
+En términos de las condiciones propuestas, 60% de flota eléctrica, minimización de emisiones y minimización de ruidos. Se realizó un modelo de optimización empleando metodologías lineales, que si bien parecen simplificado tienen un muy buen desempeño y a gran velocidad sin necesidad de recurrir a metodologías más complejas.
+
+Entrada: Datos de autos autorizados para desempeño de viajes, Cantidad de autos necesarios, Dinero inicial
+
+Salida: Flota optimizada en términos de la entrada y las restricciones asociadas al proyecto.
+
+__Stack tecnológico:__
+
+> Python: Os, Pulp, Pandas, Numpy
+
+__Uso:__
+
+Se ingresa: 
+
+Inversión estimada
+
+Cantidad de autos desaeados en la flota
+
+El modelo devuelve:
+
+Un listado de vehículos recomendados.
+
+<p align= center>
+<img src="Imagenes/Modelo_02_ML.jpg" width=600></p>
+
+Este modelo también tiene la posibilidad de simular  el consumo de combustible, y el CO2 emitido en 1 año, comparando la flota propuesta vs un flota promedio.
+
+<p align= center>
+<img src="Imagenes/Modelo_03_ML.jpg" width=600></p>
+
+####  Despliegue de los modelos
+En términos de conseguir un despliegue de bajo o nulo costo, luego de analizar diversas alternativas, se seleccionó Streamlit Cloud.
+
+Por ende, se utilizó su framework asociado para desarrollar un despliegue MVP: Producto Viable Mínimo.
+
+__Stack tecnológico:__
+
+> Python: Streamlit, Pandas, Numpy, Request, Seaborn, Matplotlib
+
+>Despliegue: Streamlit Cloud
+
