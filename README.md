@@ -669,6 +669,7 @@ La automatización del Data Warehouse se logró mediante la programación de pro
 Para garantizar la eficiencia en la carga de datos, implementamos un enfoque de carga incremental. Solo se cargaron los datos nuevos o modificados desde la última ejecución del proceso ETL, lo que redujo el tiempo de procesamiento y aseguró la consistencia de los datos.
 
 [Modelo de Carga incremental en GC](https://youtu.be/kh66sdnBeBg?si=-Qd40kqjLXDA4ALa)
+<iframe width="869" height="489" src="https://www.youtube.com/embed/kh66sdnBeBg" title="Carga incremental en GC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  
 
 ## Diagrama de Entidad - Relación (DER)
