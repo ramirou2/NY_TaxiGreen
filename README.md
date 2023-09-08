@@ -663,18 +663,13 @@ Creación del Data Warehouse
 <img src="Imagenes/carga_inicial.jpg" width=600></p>
  
 
-Carga Incremental: 
-La automatización del Data Warehouse se logró mediante la programación de procesos ETL (Extracción, Transformación y Carga) utilizando Google Dataflow. Esto permitió la recopilación periódica de datos, su limpieza, transformación y carga en las tablas correspondientes.
-
-Para garantizar la eficiencia en la carga de datos, implementamos un enfoque de carga incremental. Solo se cargaron los datos nuevos o modificados desde la última ejecución del proceso ETL, lo que redujo el tiempo de procesamiento y aseguró la consistencia de los datos.
-
 ### Carga incremental
 
 La automatización del Data Warehouse se logró mediante la programación de procesos ETL (Extracción, Transformación y Carga) utilizando Google Composer. Esto permitió la recopilación periódica de datos desde las fuentes mencionadas anteriormente, su limpieza, transformación y carga en las tablas correspondientes.
 
 Para garantizar la eficiencia en la carga de datos, implementamos un enfoque de carga incremental. Solo se cargaron los datos nuevos o modificados desde la última ejecución del proceso ETL, lo que redujo el tiempo de procesamiento y aseguró la consistencia de los datos.
 
-[![Video Carga Incremental Google Cloud](https://img.youtube.com/vi/kh66sdnBeBg/mqdefault.jpg)](https://youtu.be/kh66sdnBeBg?si=-Qd40kqjLXDA4ALa)
+:video_camera:[![Video Carga Incremental Google Cloud](https://img.youtube.com/vi/kh66sdnBeBg/mqdefault.jpg)](https://youtu.be/kh66sdnBeBg?si=-Qd40kqjLXDA4ALa)
  
 
 ## Diagrama de Entidad - Relación (DER)
