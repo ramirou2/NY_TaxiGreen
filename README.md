@@ -905,3 +905,10 @@ __Stack tecnológico:__
 
 >Despliegue: Streamlit Cloud
 
+### Conclusiones
+
+- Generar una flota amigable con el ambiente.
+- Uso de los sistemas de IA para el desarrollo de algoritmos de ML que permitirán ajustar los diversos parámetros en tiempo real para optimizar los ingresos
+  tanto de la empresa como de los conductores.
+- Capacitación al personal en las herramientas desarrolladas para el uso eficiente del producto ofrecido.
+- Acompañamiento durante todo el proceso de incorporación y adaptación de las nuevas tecnologías para lograr el retorno efectivo de la inversión inicial.
