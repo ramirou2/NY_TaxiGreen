@@ -834,6 +834,8 @@ Por otra parte, a la derecha hay un mapa de calor que permite visualizar en qué
 
 ### Modelos de machine learning
 
+:link:[Click Aqui para acceder al modelo](https://taxigreenmodels-pf.streamlit.app/):link:
+
 #### Modelo 1: Modelo ML - Clima Descripción General
 
 En este modelo se empleo Machine Learning, puntualmente un modelo de Random Forest, el cual fue entrenado con datos de los viajes de los Yellow Taxis en Manhattan - New York asociado a los datos climáticos correspondientes al momento del viaje.
