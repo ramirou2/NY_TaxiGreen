@@ -669,7 +669,7 @@ La automatización del Data Warehouse se logró mediante la programación de pro
 
 Para garantizar la eficiencia en la carga de datos, implementamos un enfoque de carga incremental. Solo se cargaron los datos nuevos o modificados desde la última ejecución del proceso ETL, lo que redujo el tiempo de procesamiento y aseguró la consistencia de los datos.
 
-:video_camera:[![Video Carga Incremental Google Cloud](https://img.youtube.com/vi/kh66sdnBeBg/mqdefault.jpg)](https://youtu.be/kh66sdnBeBg?si=-Qd40kqjLXDA4ALa)
+:movie_camera:[![Video Carga Incremental Google Cloud](https://img.youtube.com/vi/kh66sdnBeBg/mqdefault.jpg)](https://youtu.be/kh66sdnBeBg?si=-Qd40kqjLXDA4ALa):movie_camera:
  
 
 ## Diagrama de Entidad - Relación (DER)
