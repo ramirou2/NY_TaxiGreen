@@ -663,7 +663,7 @@ Creación del Data Warehouse
 <img src="Imagenes/carga_inicial.jpg" width=600></p>
  
 
-### Carga incremental
+## Carga incremental
 
 La automatización del Data Warehouse se logró mediante la programación de procesos ETL (Extracción, Transformación y Carga) utilizando Google Composer. Esto permitió la recopilación periódica de datos desde las fuentes mencionadas anteriormente, su limpieza, transformación y carga en las tablas correspondientes.
 
