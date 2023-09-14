@@ -10,8 +10,8 @@
 
 <br> <img src="https://avatars.githubusercontent.com/u/111613206?v=4" width=150>
 <br> Araque Roldan Mauricio Alejandro
-<br> <sub>  (https://github.com/araquester)
-<br> (https://www.linkedin.com/in/mauricio-araque) </sub>
+<br> <sub>  https://github.com/araquester
+<br> https://www.linkedin.com/in/mauricio-araque </sub>
 
 |  | <img src="https://media.licdn.com/dms/image/D4E03AQFDK8a0LZX7Sw/profile-displayphoto-shrink_100_100/0/1689894810692?e=1698883200&v=beta&t=JrdjWkYa1aZ4cpdwUXwafdGS1AvVGMrxBdZ6Nzdaf9w" width=150> | <img src="https://avatars.githubusercontent.com/u/79583157?v=4" width=150> | <img src="https://avatars.githubusercontent.com/u/69260155?v=4" width=150> | <img src="https://media.licdn.com/dms/image/D4E03AQH0E5IuAOAKjQ/profile-displayphoto-shrink_800_800/0/1692194604387?e=1698883200&v=beta&t=3ahkSTiqFkN0p_kJJRXjWvi7GAUMVazlrRERdPc56vw" width=150> |
 |:---------------:|:---------:|:---------:|:---------:|:---------:| 
