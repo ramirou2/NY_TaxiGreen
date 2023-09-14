@@ -22,9 +22,9 @@
 <br> https://www.linkedin.com/in/cristian-biava/ </sub>
 </p>
 
-<p align= left>
+<p align= right>
 <img src="https://avatars.githubusercontent.com/u/79583157?v=4" width=150>
-<br> <sub> López Guerra, Adriana Gabriela )</sub>
+<br> <sub> López Guerra, Adriana Gabriela 
 <br> https://github.com/AdrianaGLG
 <br> https://www.linkedin.com/in/adriana-gabriela-lopez-guerra </sub>
 </p>
