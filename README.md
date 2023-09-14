@@ -29,11 +29,19 @@
 <br> https://www.linkedin.com/in/adriana-gabriela-lopez-guerra </sub>
 </p>
 
+<p align= center>
+<img src="https://avatars.githubusercontent.com/u/69260155?v=4" width=150>
+<br> <sub>Luna Paez, Gastón Ramiro
+<br> https://github.com/ramirou2
+<br> https://www.linkedin.com/in/gaston-luna-paez/
+</p>
 
-|  |  |  | <img src="https://avatars.githubusercontent.com/u/69260155?v=4" width=150> | <img src="https://media.licdn.com/dms/image/D4E03AQH0E5IuAOAKjQ/profile-displayphoto-shrink_800_800/0/1692194604387?e=1698883200&v=beta&t=3ahkSTiqFkN0p_kJJRXjWvi7GAUMVazlrRERdPc56vw" width=150> |
+
+ 
+|  |  |  |  | <img src="https://media.licdn.com/dms/image/D4E03AQH0E5IuAOAKjQ/profile-displayphoto-shrink_800_800/0/1692194604387?e=1698883200&v=beta&t=3ahkSTiqFkN0p_kJJRXjWvi7GAUMVazlrRERdPc56vw" width=150> |
 |:---------------:|:---------:|:---------:|:---------:|:---------:| 
 ||
-<sub>  </sub>||<sub>Luna Paez, Gastón Ramiro (https://github.com/ramirou2)</sub>|<sub> Rappaport, Fernando Ariel (https://github.com/TheFercho)</sub>|
+<sub>  </sub>|| ()</sub>|<sub> Rappaport, Fernando Ariel (https://github.com/TheFercho)</sub>|
 
 
 ### **`Esquema del Repositorio`**</h3>
