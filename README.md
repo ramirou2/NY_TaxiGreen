@@ -9,39 +9,39 @@
 ### **`Equipo`**</h2>
 
 <p align= left>
-<br> <img src="https://avatars.githubusercontent.com/u/111613206?v=4" width=150>
+<br> <img src="https://avatars.githubusercontent.com/u/111613206?v=4" width=100>
 <br> Araque Roldan Mauricio Alejandro
 <br> <sub>  https://github.com/araquester
 <br> https://www.linkedin.com/in/mauricio-araque </sub>
 </p>
 
 <p align= center>
-<img src="https://media.licdn.com/dms/image/D4E03AQFDK8a0LZX7Sw/profile-displayphoto-shrink_100_100/0/1689894810692?e=1698883200&v=beta&t=JrdjWkYa1aZ4cpdwUXwafdGS1AvVGMrxBdZ6Nzdaf9w" width=150>
+<img src="https://media.licdn.com/dms/image/D4E03AQFDK8a0LZX7Sw/profile-displayphoto-shrink_100_100/0/1689894810692?e=1698883200&v=beta&t=JrdjWkYa1aZ4cpdwUXwafdGS1AvVGMrxBdZ6Nzdaf9w" width=100>
 <br> <sub>Biava, Cristian 
 <br> https://github.com/Crichu
 <br> https://www.linkedin.com/in/cristian-biava/ </sub>
 </p>
 
 <p align= right>
-<img src="https://avatars.githubusercontent.com/u/79583157?v=4" width=150>
+<img src="https://avatars.githubusercontent.com/u/79583157?v=4" width=100>
 <br> <sub> López Guerra, Adriana Gabriela 
 <br> https://github.com/AdrianaGLG
 <br> https://www.linkedin.com/in/adriana-gabriela-lopez-guerra </sub>
 </p>
 
 <p align= center>
-<img src="https://avatars.githubusercontent.com/u/69260155?v=4" width=150>
+<img src="https://avatars.githubusercontent.com/u/69260155?v=4" width=100>
 <br> <sub>Luna Paez, Gastón Ramiro
 <br> https://github.com/ramirou2
 <br> https://www.linkedin.com/in/gaston-luna-paez/ </sub>
 </p>
 
-
- 
-|  |  |  |  | <img src="https://media.licdn.com/dms/image/D4E03AQH0E5IuAOAKjQ/profile-displayphoto-shrink_800_800/0/1692194604387?e=1698883200&v=beta&t=3ahkSTiqFkN0p_kJJRXjWvi7GAUMVazlrRERdPc56vw" width=150> |
-|:---------------:|:---------:|:---------:|:---------:|:---------:| 
-||
-<sub>  </sub>|| ()</sub>|<sub> Rappaport, Fernando Ariel (https://github.com/TheFercho)</sub>|
+<p align= left>
+<img src="https://media.licdn.com/dms/image/D4E03AQH0E5IuAOAKjQ/profile-displayphoto-shrink_800_800/0/1692194604387?e=1698883200&v=beta&t=3ahkSTiqFkN0p_kJJRXjWvi7GAUMVazlrRERdPc56vw" width=100>
+<br> <sub> Rappaport, Fernando Ariel
+<br> https://github.com/TheFercho
+<br> https://www.linkedin.com/in/fernando-rappaport-thefercho/ </sub>
+</p> 
 
 
 ### **`Esquema del Repositorio`**</h3>
