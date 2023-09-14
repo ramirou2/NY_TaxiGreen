@@ -262,37 +262,7 @@ Para nuestro proyecto, desarrollamos el logotipo de la empresa consultora (Taxi 
 <img src="Imagenes/Logo Corporativo.jpg" width=200> </p>
 
 
-### ETL y EDA de datasets complementarios
 
-#### API historical-weather-api
-
-Proporciona información sobre las condiciones climáticas, incluyendo temperaturas y precipitaciones, en diferentes momentos, a lo largo de un período de tiempo de un año, con registros diarios.
-
-El DataFrame tiene un total de 3,864 filas y 6 columnas.
-
-Proporciona información sobre las condiciones climáticas, incluyendo temperaturas y precipitaciones, en diferentes momentos, a lo largo de un período de tiempo de un año, con registros diarios.
-
-El DataFrame tiene un total de 3,864 filas y 6 columnas.
-
-#### Patrón de temperaturas en el año:
-
-En el siguiente gráfico de cajas se observa la clara tendencia de temperaturas según las estaciones del año. 
-
-Hay que remarcar que en invierno llegan a registrarse valores extremos de hasta -20°C. Sin embargo, en los meses cálidos la temperatura no sobrepasa los 20°C, cual lo cual se deduce que Nueva York es una ciudad más bien fria.
-
-El frio y la nieve son factores importantes a tener en cuenta en el negocio de los taxis, puesto que con temperaturas tan bajas, las personas tienden a trasladarse en el refugio abrigado de un vehículo.
-
-<p align= Center>
-<img src="Imagenes/EDA_Complementario_10.jpg" width=800> </p>
-
-#### Patrón de precipitaciones:
-
-La mayoría de las precipitaciones ocurren en los meses de verano.
-
-Los días de lluvia la gente tiende a usar mayormente vehículos (para no mojarse), por ende puede ser una información útil para el negocio de los taxis.
-
-<p align= Center>
-<img src="Imagenes/EDA_Complementario_11.jpg" width=800> </p>
 
 ## Data Engineering :wrench: 
 
@@ -393,47 +363,6 @@ En nuestro Data Warehouse, se crearon dos tablas de hecho y cinco tablas de dime
 <img src="Imagenes/DER_Final.jpg" width=600></p>
  
 
-## Tablas de Hecho:
-
-*- Viajes:*
-
-Proporciona información sobre viajes que realiza la compañía en la ciudad de Nueva York, incluyendo detalles sobre las ubicaciones de inicio y fin y tarifas.
-
-*- Autos_flota:*
-
-Contiene información sobre los vehículos que son propiedad de la empresa.
-
-*- Clima:* 
-
-Proporciona información sobre las condiciones climáticas, incluyendo temperaturas y precipitaciones, en diferentes momentos, a lo largo de un período de tiempo de un año, con registros diarios.
-
-Estos datos se recogen de una API con una frecuencia mensual.
-
-## Tablas Dimensión:
-
-*-Autos:*  
-
-Contiene datos detallados sobre la economía de combustible y las especificaciones técnicas de una variedad de vehículos, incluyendo información sobre consumo de combustible, emisiones de CO2 y ruido que produce el motor.
-
-*-Taxi_zones:*
-
-Proporciona información sobre las zonas de taxis en diferentes distritos, incluyendo detalles sobre las ubicaciones, distritos, nombres de zonas y zonas de servicio asociadas..
-
-*-Tipo_combustible:*
-
-Tipo de combustible del vehículo.
-
-*-Clase_vehiculo:*
-
-Tipo de combustible del vehículo (Sedan, Hatchback, SUV, Pick Up).
-
-*-Marca_auto:*
-
-Fabricante del vehículo.
-
-*- Método_pago:*
-
-Método de pago utilizado para abonar el viaje.
 
 ### Analítica de datos.
 
