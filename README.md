@@ -33,7 +33,7 @@
 <img src="https://avatars.githubusercontent.com/u/69260155?v=4" width=150>
 <br> <sub>Luna Paez, Gastón Ramiro
 <br> https://github.com/ramirou2
-<br> https://www.linkedin.com/in/gaston-luna-paez/
+<br> https://www.linkedin.com/in/gaston-luna-paez/ </sub>
 </p>
 
 
