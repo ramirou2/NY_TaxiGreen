@@ -15,21 +15,21 @@
 <br> https://www.linkedin.com/in/mauricio-araque </sub>
 </p>
 
-<p align= center>
+<p align= left>
 <img src="https://media.licdn.com/dms/image/D4E03AQFDK8a0LZX7Sw/profile-displayphoto-shrink_100_100/0/1689894810692?e=1698883200&v=beta&t=JrdjWkYa1aZ4cpdwUXwafdGS1AvVGMrxBdZ6Nzdaf9w" width=100>
 <br> <sub>Biava, Cristian 
 <br> https://github.com/Crichu
 <br> https://www.linkedin.com/in/cristian-biava/ </sub>
 </p>
 
-<p align= right>
+<p align= left>
 <img src="https://avatars.githubusercontent.com/u/79583157?v=4" width=100>
 <br> <sub> López Guerra, Adriana Gabriela 
 <br> https://github.com/AdrianaGLG
 <br> https://www.linkedin.com/in/adriana-gabriela-lopez-guerra </sub>
 </p>
 
-<p align= center>
+<p align= left>
 <img src="https://avatars.githubusercontent.com/u/69260155?v=4" width=100>
 <br> <sub>Luna Paez, Gastón Ramiro
 <br> https://github.com/ramirou2
