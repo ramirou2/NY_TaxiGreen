@@ -17,7 +17,7 @@
 
 <p align= center>
 <img src="https://media.licdn.com/dms/image/D4E03AQFDK8a0LZX7Sw/profile-displayphoto-shrink_100_100/0/1689894810692?e=1698883200&v=beta&t=JrdjWkYa1aZ4cpdwUXwafdGS1AvVGMrxBdZ6Nzdaf9w" width=150>
-<br> ==Biava, Cristian== 
+<br> Biava, Cristian 
 <br> https://github.com/Crichu
 <br> https://www.linkedin.com/in/cristian-biava/
 </p>
